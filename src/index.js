@@ -27,5 +27,7 @@ import '../public/assets/lib/nivo-slider/js/jquery.nivo.slider.js';
 import '../public/assets/lib/appear/jquery.appear.js';
 import '../public/assets/lib/isotope/isotope.pkgd.min.js';
 import Dashboard from './component/pages/Dashboard';
+import Covid from './component/pages/Covid';
 
-ReactDOM.render(<React.StrictMode><Dashboard /></React.StrictMode>, document.getElementById('root'));
+// ReactDOM.render(<React.StrictMode><Dashboard /></React.StrictMode>, document.getElementById('root'));
+ReactDOM.render(<React.StrictMode><Covid /></React.StrictMode>, document.getElementById('root'));
