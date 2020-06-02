@@ -1,0 +1,74 @@
+.logo_icon{
+    color: #2BACE2 !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 10px;
+}
+.technology_icon {
+    height: 80px;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 4px 13px;
+}
+.contact_icon{
+    height: 80px;
+}
+.client_icon{
+    width:100px;
+}
+
+
+/*social media start here*/
+#fixed-social {
+    position: fixed;
+    top: 40%;
+}
+
+#fixed-social a {
+    color: #fff;
+    display: block;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    margin-bottom: 1px;
+    z-index: 2;
+}
+#fixed-social a:hover>span{
+    visibility: visible;
+    left: 41px;
+    opacity: 1;
+}
+#fixed-social a span {
+    line-height: 40px;
+    left: 60px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    visibility: hidden;
+    transition-duration: 0.5s;
+    z-index: 1;
+    opacity: 0;
+}
+
+.fixed-facebook span{
+    background-color: #77A2D4;
+}
+.fixed-twitter span{
+    background-color: #78A1D3;
+}
+.fixed-linkedin span{
+    background-color: #78A1D3;
+}
+.fixed-instagrem span{
+    background-color: #7D3895;
+}
+.fixed-pinterest span{
+    background-color:#F07A7D;
+}
+/*end fixed social*/
+
+

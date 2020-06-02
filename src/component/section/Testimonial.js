@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import mizanur_rahman from '../../../public/assets/img/clients_pic/mizanur-rahman.png';
-import philip from '../../../public/assets/img/clients_pic/philip.png';
-import sattar from '../../../public/assets/img/clients_pic/sattar.png';
-import vmc from '../../../public/assets/img/clients_pic/vmc.png';
+import mizanur_rahman from '../../assets/img/clients_pic/mizanur-rahman.png';
+import philip from '../../assets/img/clients_pic/philip.png';
+import sattar from '../../assets/img/clients_pic/sattar.png';
+import vmc from '../../assets/img/clients_pic/vmc.png';
 
 class Testimonial extends Component{
 
@@ -77,7 +77,7 @@ class Testimonial extends Component{
                            <div className="codepen-wrapper">
                                <figure className="review">
                                    <blockquote className="review__text">
-                                       SETCOLBD is incredible to work with. They have great communication and superb insights into Ecommerce. They went above and beyond to make sure I was completely satisfied with our new website. They completed the job on time and handled all the projects expeditiously. I love his attention to detail. The finished product blow my mind. I highly recommend SETCOLBD.
+                                       SETCOLBD is incredible to work with. They have great communication and superb insights into Ecommerce. They went above and beyond to make sure I was completely satisfied with our new website.
                                    </blockquote>
                                    <figcaption className="review__person">
                                        <img src={philip} alt="User 1"
@@ -113,7 +113,7 @@ class Testimonial extends Component{
                            <div className="codepen-wrapper">
                                <figure className="review">
                                    <blockquote className="review__text">
-                                       SETCOLBD gives the company better business intelligence when we're talking with our vendors and customers. It's an accurate ERP management system. SETCOLBD is the most efficient, affordable & customized ERP System provider in the market with great support.
+                                       SETCOLBD gives the company better business intelligence when we're talking with our vendors and customers. It's an accurate ERP management system.
                                    </blockquote>
                                    <figcaption className="review__person">
                                        <img src={vmc} alt="User 1"

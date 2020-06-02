@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import about_img from '../../../public/assets/img/about/setcolbd-03.png';
+import about_img from '../../assets/img/about/setcolbd-03.png';
 
 
 
@@ -7,7 +7,7 @@ class About extends Component{
     render(){
         return(
             <div>
-                <div id="about" className="about-area area-padding">
+                <div className="about-area area-padding">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 col-sm-12 col-xs-12">

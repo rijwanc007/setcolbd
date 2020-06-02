@@ -1,8 +1,7 @@
 import React,{Component} from 'react';
 import { Navbar,Image,Nav } from 'react-bootstrap'
-import logo from '../../../public/assets/img/logo/setcolbd.png'
-
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import logo from '../../assets/img/logo/setcolbd.png'
 
 class Header extends Component{
     render(){
@@ -18,12 +17,12 @@ class Header extends Component{
                                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                                         <Navbar.Collapse id="basic-navbar-nav">
                                             <Nav style={{marginLeft:'7%'}}>
-                                                <Nav.Link href="#home" className="logo_icon">About</Nav.Link>
-                                                <Nav.Link href="#link" className="logo_icon">Services</Nav.Link>
-                                                <Nav.Link href="#link" className="logo_icon">Product</Nav.Link>
-                                                <Nav.Link href="#link" className="logo_icon">Portfolio</Nav.Link>
-                                                <Nav.Link href="#link" className="logo_icon">Contact</Nav.Link>
-                                                <Nav.Link href="#link" className="logo_icon">Career</Nav.Link>
+                                                <AnchorLink offset='100' href="#about" className="logo_icon">About</AnchorLink>
+                                                <AnchorLink offset='100' href="#services" className="logo_icon">Services</AnchorLink>
+                                                <AnchorLink offset='100' href="#product" className="logo_icon">Product</AnchorLink>
+                                                <AnchorLink offset='100' href="#portfolio" className="logo_icon">Portfolio</AnchorLink>
+                                                <AnchorLink offset='100' href="#contact" className="logo_icon">Contact</AnchorLink>
+                                                <AnchorLink offset='100' href="#career" className="logo_icon">Career</AnchorLink>
                                             </Nav>
                                             <div style={{marginLeft:'7%',color:'#2BACE2'}}>
                                                 <span><i className="fa fa-phone"></i> : +88-0255112226</span>

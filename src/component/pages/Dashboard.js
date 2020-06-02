@@ -15,6 +15,8 @@ import Testimonial from '../section/Testimonial';
 import Contact from '../section/Contact';
 import Footer from '../include/Footer';
 
+import jQuery from "jquery";
+
 
 class Dashboard extends Component{
     componentDidMount() {
@@ -33,22 +35,6 @@ class Dashboard extends Component{
                 s.removeClass("stick");
               }
             });
-            /*----------------------------
-             Navbar nav
-            ------------------------------ */
-            var main_menu = $(".main-menu ul.navbar-nav li ");
-            main_menu.on('click', function() {
-                main_menu.removeClass("active");
-                $(this).addClass("active");
-            });
-            /*----------------------------
-             wow js active
-            ------------------------------ */
-            // new WOW().init();
-
-            // $(".navbar-collapse a:not(.dropdown-toggle)").on('click', function() {
-            //   $(".navbar-collapse.collapse").removeClass('in');
-            // });
             //---------------------------------------------
             //Nivo slider
             //---------------------------------------------
@@ -65,58 +51,6 @@ class Dashboard extends Component{
                 pauseOnHover: true,
                 manualAdvance: false,
             });
-
-            /*----------------------------
-             Scrollspy js
-            ------------------------------ */
-            var Body = $('body');
-            Body.scrollspy({
-                target: '.navbar-collapse',
-                offset: 80
-            });
-
-            /*---------------------
-              Venobox
-            --------------------- */
-            var veno_box = $('.venobox');
-            veno_box.venobox();
-
-            /*----------------------------
-            Page Scroll
-            ------------------------------ */
-            var page_scroll = $('a.page-scroll');
-            page_scroll.on('click', function(event) {
-                var $anchor = $(this);
-                $('html, body').stop().animate({
-                    scrollTop: $($anchor.attr('href')).offset().top - 55
-                }, 1500, 'easeInOutExpo');
-                event.preventDefault();
-            });
-
-            /*--------------------------
-              Back to top button
-            ---------------------------- */
-            $(window).scroll(function() {
-                if ($(this).scrollTop() > 100) {
-                    $('.back-to-top').fadeIn('slow');
-                } else {
-                    $('.back-to-top').fadeOut('slow');
-                }
-            });
-
-            $('.back-to-top').click(function(){
-                $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
-                return false;
-            });
-
-            /*----------------------------
-             Parallax
-            ------------------------------ */
-            var well_lax = $('.wellcome-area');
-            well_lax.parallax("50%", 0.4);
-            var well_text = $('.wellcome-text');
-            well_text.parallax("50%", 0.6);
-
             /*--------------------------
              collapse
             ---------------------------- */
@@ -125,65 +59,6 @@ class Dashboard extends Component{
                 panel_test.removeClass('active');
                 $(this).addClass('active');
             });
-
-            /*---------------------
-             Testimonial carousel
-            ---------------------*/
-            var test_carousel = $('.testimonial-carousel');
-            test_carousel.owlCarousel({
-                loop: true,
-                nav: false,
-                dots: true,
-                autoplay: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    768: {
-                        items: 1
-                    },
-                    1000: {
-                        items: 1
-                    }
-                }
-            });
-            /*----------------------------
-             isotope active
-            ------------------------------ */
-            // portfolio start
-            $(window).on("load", function() {
-                var $container = $('.awesome-project-content');
-                $container.isotope({
-                    filter: '*',
-                    animationOptions: {
-                        duration: 750,
-                        easing: 'linear',
-                        queue: false
-                    }
-                });
-                var pro_menu = $('.project-menu li a');
-                pro_menu.on("click", function() {
-                    var pro_menu_active = $('.project-menu li a.active');
-                    pro_menu_active.removeClass('active');
-                    $(this).addClass('active');
-                    var selector = $(this).attr('data-filter');
-                    $container.isotope({
-                        filter: selector,
-                        animationOptions: {
-                            duration: 750,
-                            easing: 'linear',
-                            queue: false
-                        }
-                    });
-                    return false;
-                });
-
-            });
-            //portfolio end
-
-            /*---------------------
-             Circular Bars - Knob
-          --------------------- */
             if (typeof($.fn.knob) != 'undefined') {
                 var knob_tex = $('.knob');
                 knob_tex.each(function() {
@@ -214,7 +89,6 @@ class Dashboard extends Component{
                     });
                 });
             }
-
         })(jQuery);
     }
     render(){
@@ -222,26 +96,35 @@ class Dashboard extends Component{
             <div>
                 <Header/>
                 <Slider/>
+                <section id="about">
                 <About/>
+                </section>
                 <SocialMedia/>
+                <section id="services">
                 <Services/>
+                </section>
                 <Skill/>
+                <section id="product">
                 <Product/>
+                </section>
                 <Subscribe/>
                 <br/>
                 <Technology/>
                 <br/>
                 <Clients/>
                 <br/>
+                <section id="portfolio">
                 <Portfolio/>
+                </section>
                 <br/><br/>
                 <Testimonial/>
+                <section id="contact">
                 <Contact/>
+                </section>
                 <Footer/>
             </div>
         )
     }
 }
-
 
 export default Dashboard;

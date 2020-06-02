@@ -5,29 +5,21 @@ import '@fortawesome/fontawesome-free/js/fontawesome'
 import '@fortawesome/fontawesome-free/js/solid'
 import '@fortawesome/fontawesome-free/js/regular'
 import '@fortawesome/fontawesome-free/js/brands'
-import '../public/assets/lib/nivo-slider/css/nivo-slider.css';
-import '../public/assets/lib/owlcarousel/owl.carousel.css';
-import '../public/assets/lib/owlcarousel/owl.transitions.css';
-import '../public/assets/lib/animate/animate.min.css';
-import '../public/assets/lib/venobox/venobox.css';
-import '../public/assets/css/nivo-slider-theme.css';
-import '../public/assets/css/style.css';
-import '../public/assets/css/responsive.css';
-import '../public/assets/css/custom.css';
-import '../public/assets/css/review.css';
-import $ from "jquery";
-import '../public/assets/lib/bootstrap/js/bootstrap.min.js';
-import '../public/assets/lib/owlcarousel/owl.carousel.min.js';
-import '../public/assets/lib/venobox/venobox.min.js';
-import '../public/assets/lib/knob/jquery.knob.js';
-import '../public/assets/lib/wow/wow.min.js';
-import '../public/assets/lib/parallax/parallax.js';
-import '../public/assets/lib/easing/easing.min.js';
-import '../public/assets/lib/nivo-slider/js/jquery.nivo.slider.js';
-import '../public/assets/lib/appear/jquery.appear.js';
-import '../public/assets/lib/isotope/isotope.pkgd.min.js';
-import Dashboard from './component/pages/Dashboard';
-import Covid from './component/pages/Covid';
+import './assets/lib/nivo-slider/css/nivo-slider.css';
+import './assets/lib/animate/animate.min.css';
+import './assets/css/nivo-slider-theme.css';
+import './assets/css/style.css';
+import './assets/css/responsive.css';
+import './assets/css/custom.css';
+import './assets/css/review.css';
 
-// ReactDOM.render(<React.StrictMode><Dashboard /></React.StrictMode>, document.getElementById('root'));
-ReactDOM.render(<React.StrictMode><Covid /></React.StrictMode>, document.getElementById('root'));
+import $ from "jquery";
+
+import './assets/lib/bootstrap/js/bootstrap.min.js';
+import './assets/lib/knob/jquery.knob.js';
+import './assets/lib/nivo-slider/js/jquery.nivo.slider.js';
+import './assets/lib/appear/jquery.appear.js';
+
+import Dashboard from './component/pages/Dashboard';
+
+ReactDOM.render(<React.StrictMode><Dashboard /></React.StrictMode>, document.getElementById('root'));

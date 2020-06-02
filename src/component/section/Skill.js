@@ -33,7 +33,7 @@ class Skill extends Component{
                                     <div className="col-xs-12 col-sm-3 col-md-3 text-center">
                                         <div className="single-skill">
                                             <div className="progress-circular">
-                                                <input type="text" className="knob" value="0" data-rel="80" data-linecap="round" data-width="175" data-bgColor="#3EC1D5" data-fgcolor="white" data-thickness=".20" data-readonly="true" disabled/><h3 className="progress-h4">Cloud Support</h3>
+                                                <input type="text" className="knob" value="0" data-rel="87" data-linecap="round" data-width="175" data-bgColor="#3EC1D5" data-fgcolor="white" data-thickness=".20" data-readonly="true" disabled/><h3 className="progress-h4">Data Security</h3>
                                             </div>
                                         </div>
                                     </div>

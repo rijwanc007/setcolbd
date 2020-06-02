@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
-import address from '../../../public/assets/img/icon/location.png';
-import email from '../../../public/assets/img/icon/email.png';
-import phone from '../../../public/assets/img/icon/phone.png';
+import address from '../../assets/img/icon/location-80.png';
+import email from '../../assets/img/icon/email-80.png';
+import phone from '../../assets/img/icon/phone-80.png';
 
 class Contact extends Component{
     render(){
@@ -22,7 +22,7 @@ class Contact extends Component{
                                 <div className="col-md-4 col-sm-4 col-xs-12">
                                     <div className="contact-icon text-center">
                                         <div className="single-icon">
-                                            <img className="contact_icon" src={phone} alt = "phone"/>
+                                            <img src={phone} alt = "phone"/>
                                             <p>
                                                 Call : +88-0255112226, +88-01401157050<br/>
                                                 <span>Saturday - Thursday (9am-6pm)</span>
@@ -33,7 +33,7 @@ class Contact extends Component{
                                 <div className="col-md-4 col-sm-4 col-xs-12">
                                     <div className="contact-icon text-center">
                                         <div className="single-icon">
-                                            <img className="contact_icon" src={email} alt = "email"/>
+                                            <img src={email} alt = "email"/>
                                             <p>
                                                 Email : info@setcolbd.com
                                             </p>
@@ -43,7 +43,7 @@ class Contact extends Component{
                                 <div className="col-md-4 col-sm-4 col-xs-12">
                                     <div className="contact-icon text-center">
                                         <div className="single-icon">
-                                            <img className="contact_icon" src={address} alt = "address"/>
+                                            <img src={address} alt = "address"/>
                                             <p>
                                                 Location : 31/1 Purana Paltan, Sharif Complex(10th floor)<br/>
                                                 <span>Dhaka-1000,Bangladesh</span>
