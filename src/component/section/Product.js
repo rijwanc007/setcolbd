@@ -13,8 +13,8 @@ import virtual_class from '../../assets/img/products/virtual_class_room.png';
 class Product extends Component{
     render(){
         return(
-            <div>
-                <div id="services" className="services-area area-padding">
+            <div id="product">
+                <div className="services-area area-padding">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12 col-sm-12 col-xs-12">

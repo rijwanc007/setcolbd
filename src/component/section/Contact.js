@@ -6,8 +6,8 @@ import phone from '../../assets/img/icon/phone-80.png';
 class Contact extends Component{
     render(){
         return(
-            <div>
-                <div id="contact" className="contact-area">
+            <div id="contact">
+                <div className="contact-area">
                     <div className="contact-inner area-padding">
                         <div className="contact-overly"></div>
                         <div className="container ">

@@ -10,7 +10,7 @@ import data_security from '../../assets/img/services/data_secutiry-80.png';
 class Services extends Component{
     render(){
         return(
-            <div>
+            <div id="services">
                 <div id="services" className="services-area area-padding">
                     <div className="container">
                         <div className="row">

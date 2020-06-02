@@ -96,31 +96,21 @@ class Dashboard extends Component{
             <div>
                 <Header/>
                 <Slider/>
-                <section id="about">
                 <About/>
-                </section>
                 <SocialMedia/>
-                <section id="services">
                 <Services/>
-                </section>
                 <Skill/>
-                <section id="product">
                 <Product/>
-                </section>
                 <Subscribe/>
                 <br/>
                 <Technology/>
                 <br/>
                 <Clients/>
                 <br/>
-                <section id="portfolio">
                 <Portfolio/>
-                </section>
                 <br/><br/>
                 <Testimonial/>
-                <section id="contact">
                 <Contact/>
-                </section>
                 <Footer/>
             </div>
         )

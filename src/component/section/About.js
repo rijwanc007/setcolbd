@@ -6,7 +6,7 @@ import about_img from '../../assets/img/about/setcolbd-03.png';
 class About extends Component{
     render(){
         return(
-            <div>
+            <div id="about">
                 <div className="about-area area-padding">
                     <div className="container">
                         <div className="row">
