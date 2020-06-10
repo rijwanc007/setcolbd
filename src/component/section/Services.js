@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import { Link } from 'react-router-dom';
 import web_development from '../../assets/img/services/web_development.png';
 import graphics from '../../assets/img/services/80.png';
 import mobile_app from '../../assets/img/services/mobile-app-icon-80.png';
@@ -29,7 +30,7 @@ class Services extends Component{
                                                 <img src={web_development} alt={web_development}/>
                                             </a>
                                             <h4>Web Application</h4>
-                                            <p>Web-based applications, which are built to serve a specific use and customer base; and can be accessed from desktops, laptops, and even mobiles.<a className="text-info" href="#" target="_blank">Read More</a></p>
+                                            <p>Web-based applications, which are built to serve a specific use and customer base; and can be accessed from desktops, laptops, and even mobiles.<Link to="/web_application" className="text-info">Read More</Link></p>
                                         </div>
                                     </div>
                                 </div>
@@ -94,10 +95,7 @@ class Services extends Component{
                                                 <img src={data_security} alt={data_security}/>
                                             </a>
                                             <h4>Online Data Security</h4>
-                                            <p>
-                                                will have to make sure the prototype looks finished by inserting text or
-                                                photo.make sure the prototype looks finished by.
-                                            </p>
+                                            <p>Secure Socket Layer (SSL) certification and validation are a necessary piece of web security for any business that collects information from .<a className="text-info" href="#">Read More</a></p>
                                         </div>
                                     </div>
                                 </div>
