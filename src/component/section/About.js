@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import about_img from '../../assets/img/about/setcolbd-03.png';
 
 
-
 class About extends Component{
     render(){
         return(

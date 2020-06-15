@@ -29,7 +29,7 @@ class MobileApplicationSection extends Component{
                 <div  className = "footer-area">
                     <div className = "container">
                         <div className = "row">
-                            <div className = "col-md-6 col-sm-6 col-xl-6">
+                            <div className = "col-md-12 col-sm-12 col-xl-12">
                                 <div className="section-headline text-center">
                                     <h2>Detail <span className="text-info">'s</span></h2>
                                 </div>
@@ -38,67 +38,67 @@ class MobileApplicationSection extends Component{
                                     One of the reasons why you should create mobile applications as part of your content marketing strategy is because today most people access the internet from their smart phones rather than their PCs. Having a mobile application for your business helps you capture this customer segment and drive more traffic and sales.
                                 </p>
                             </div>
-                            <div className = "col-md-6 col-sm-6 col-xl-6">
+                            <div className = "col-md-12 col-sm-12 col-xl-12">
                                 <div className="section-headline text-center">
                                     <h2>Feature <span className="text-info">'s</span></h2>
                                 </div>
                                 <div className = {'row'}>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Simplicity_in_design} alt={Simplicity_in_design}/>
                                         <span>&nbsp;Simplicity in design</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Compliance_with_GDPR_standards} alt={Compliance_with_GDPR_standards}/>
                                         <span>&nbsp;Compliance with GDPR standards</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Ongoing_evolution} alt={Ongoing_evolution}/>
                                         <span>&nbsp;Ongoing evolution</span>
                                     </div>
 
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Less_Keyboarding_and_More_Touch} alt={Less_Keyboarding_and_More_Touch}/>
                                         <span>&nbsp;Less Keyboarding and More Touch</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Applied_Data_Science} alt={Applied_Data_Science}/>
                                         <span>&nbsp;Applied Data Science & Machine Learning</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Integration_of_Augmented_Reality} alt={Integration_of_Augmented_Reality}/>
                                         <span>&nbsp;Integration of Augmented Reality</span>
                                     </div>
 
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Cross_platform_coverage} alt={Cross_platform_coverage}/>
                                         <span>&nbsp;Cross-platform coverage</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Performance_is_the_key} alt={Performance_is_the_key}/>
                                         <span>&nbsp;Performance is the key</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Robust_Security} alt={Robust_Security}/>
                                         <span>&nbsp;Robust Security</span>
                                     </div>
 
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Integration_with_bigger_ecosystems} alt={Integration_with_bigger_ecosystems}/>
                                         <span>&nbsp;Integration with bigger ecosystems</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Interoperability_with_modern_connectivity_standard} alt={Interoperability_with_modern_connectivity_standard}/>
                                         <span>&nbsp;Interoperability with modern connectivity standard</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Focus_on_business_driven_solutions} alt={Focus_on_business_driven_solutions}/>
                                         <span>&nbsp;Focus on business-driven solutions</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {Social_Networking_Capabilities} alt={Social_Networking_Capabilities}/>
                                         <span>&nbsp;Social Networking Capabilities</span>
                                     </div>
-                                    <div className = {'col-md-6 mobile_application_feature_margin'}>
+                                    <div className = {'col-md-3 mobile_application_feature_margin'}>
                                         <img src = {The_Ability_to_Work_Offline} alt={The_Ability_to_Work_Offline}/>
                                         <span>&nbsp;The Ability to Work Offline</span>
                                     </div>

@@ -23,7 +23,7 @@ class SEODigitalMarketingSection extends Component{
                 <div  className = "footer-area">
                     <div className = "container">
                         <div className = "row">
-                            <div className = "col-md-6 col-sm-6 col-xl-6">
+                            <div className = "col-md-12 col-sm-12 col-xl-12">
                                 <div className="section-headline text-center">
                                     <h2>Detail <span className="text-info">'s</span></h2>
                                 </div>
@@ -32,46 +32,46 @@ class SEODigitalMarketingSection extends Component{
                                     A content marketer, for example, can create a series of blog posts that serve to generate leads from a new ebook the business recently created. The company's social media marketer might then help promote these blog posts through paid and organic posts on the business's social media accounts. Perhaps the email marketer creates an email campaign to send those who download the ebook more information on the company. We'll talk more about these specific digital marketers in a minute.
                                 </p>
                             </div>
-                            <div className = "col-md-6 col-sm-6 col-xl-6">
+                            <div className = "col-md-12 col-sm-12 col-xl-12">
                                 <div className="section-headline text-center">
                                     <h2>Feature <span className="text-info">'s</span></h2>
                                 </div>
                                 <div className = {'row'}>
-                                    <div className = {'col-md-6 seo_feature_margin'}>
+                                    <div className = {'col-md-3 seo_feature_margin'}>
                                         <img src = {boost_creadibility} alt={boost_creadibility}/>
                                         <span>&nbsp;Boost Credibility</span>
                                     </div>
-                                    <div className = {'col-md-6 seo_feature_margin'}>
+                                    <div className = {'col-md-3 seo_feature_margin'}>
                                         <img src = {boost_up_website_speed} alt={boost_up_website_speed}/>
                                         <span>&nbsp;Boost Up Website Speed</span>
                                     </div>
-                                    <div className = {'col-md-6 seo_feature_margin'}>
+                                    <div className = {'col-md-3 seo_feature_margin'}>
                                         <img src = {ecommerce_product_wise_seo} alt={ecommerce_product_wise_seo}/>
                                         <span>&nbsp;E-Commerce Product Wise SEO</span>
                                     </div>
 
-                                    <div className = {'col-md-6 seo_feature_margin'}>
+                                    <div className = {'col-md-3 seo_feature_margin'}>
                                         <img src = {improved_seo} alt={improved_seo}/>
                                         <span>&nbsp;Improved SEO</span>
                                     </div>
-                                    <div className = {'col-md-6 seo_feature_margin'}>
+                                    <div className = {'col-md-3 seo_feature_margin'}>
                                         <img src = {monthly_support} alt={monthly_support}/>
                                         <span>&nbsp;Monthly Support</span>
                                     </div>
-                                    <div className = {'col-md-6 seo_feature_margin'}>
+                                    <div className = {'col-md-3 seo_feature_margin'}>
                                         <img src = {spread_branding} alt={spread_branding}/>
                                         <span>&nbsp;Spread Branding</span>
                                     </div>
 
-                                    <div className = {'col-md-6 seo_feature_margin'}>
+                                    <div className = {'col-md-3 seo_feature_margin'}>
                                         <img src = {strong_content_writing} alt={strong_content_writing}/>
                                         <span>&nbsp;Strong Content Writing</span>
                                     </div>
-                                    <div className = {'col-md-6 seo_feature_margin'}>
+                                    <div className = {'col-md-3 seo_feature_margin'}>
                                         <img src = {support_all_browser} alt={support_all_browser}/>
                                         <span>&nbsp;Support All Browser</span>
                                     </div>
-                                    <div className = {'col-md-6 seo_feature_margin'}>
+                                    <div className = {'col-md-3 seo_feature_margin'}>
                                         <img src = {web_analytics_performance} alt={web_analytics_performance}/>
                                         <span>&nbsp;Web Analytics Performance</span>
                                     </div>

@@ -24,11 +24,11 @@
     font-family: inherit;
 }
 .web_application_feature_margin{
-    margin: 21px 0px;
+    margin: 10px 0px;
 }
 .mobile_application_details_design{
     font-size: 25px;
-    line-height: 42px;
+    line-height: 30px;
     font-family: inherit;
 }
 .mobile_application_feature_margin{
@@ -36,19 +36,19 @@
 }
 .qa_testing_details_design{
     font-size: 25px;
-    line-height: 42px;
+    line-height: 30px;
     font-family: inherit;
 }
 .qa_testing_feature_margin{
-    margin: 21px 0px;
+    margin: 10px 0px;
 }
 .graphics_solution_details_design{
     font-size: 25px;
-    line-height: 42px;
+    line-height: 30px;
     font-family: inherit;
 }
 .graphics_solution_feature_margin{
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 .seo_details_design{
     font-size: 25px;
@@ -64,7 +64,7 @@
     font-family: inherit;
 }
 .online_data_security_feature_margin{
-    margin: 5px 0px;
+    margin: 10px 0px;
 }
 .services_banner{
     margin-top: 80px;
