@@ -127,7 +127,7 @@ class Product extends Component{
                                             <a className="services-icon" href="#">
                                                 <img src={ecommerce} alt={ecommerce}/>
                                             </a>
-                                            <h4>E-commerce</h4>
+                                            <h4>E-Commerce</h4>
                                             <p>
                                                 will have to make sure the prototype looks finished by inserting text or
                                                 photo.make sure the prototype looks finished by.

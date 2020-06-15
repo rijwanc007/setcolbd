@@ -19,7 +19,7 @@ class Header extends Component{
                                             <Nav style={{marginLeft:'7%'}}>
                                                 <AnchorLink offset='100' href="#about" className="logo_icon">About</AnchorLink>
                                                 <AnchorLink offset='100' href="#services" className="logo_icon">Services</AnchorLink>
-                                                <AnchorLink offset='100' href="#product" className="logo_icon">Product</AnchorLink>
+                                                <AnchorLink offset='100' href="#product" className="logo_icon">Products</AnchorLink>
                                                 <AnchorLink offset='100' href="#portfolio" className="logo_icon">Portfolio</AnchorLink>
                                                 <AnchorLink offset='100' href="#contact" className="logo_icon">Contact</AnchorLink>
                                                 <AnchorLink offset='100' href="#career" className="logo_icon">Career</AnchorLink>

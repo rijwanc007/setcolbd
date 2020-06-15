@@ -18,14 +18,10 @@ import Footer from '../include/Footer';
 
 import jQuery from "jquery";
 
-
 class Dashboard extends Component{
     componentDidMount() {
         (function($) {
             "use strict";
-            /*---------------------
-             TOP Menu Stick
-            --------------------- */
             var s = $("#sticker");
             var pos = s.position();
             $(window).on('scroll', function() {
@@ -36,9 +32,6 @@ class Dashboard extends Component{
                 s.removeClass("stick");
               }
             });
-            //---------------------------------------------
-            //Nivo slider
-            //---------------------------------------------
             $('#ensign-nivoslider').nivoSlider({
                 effect: 'random',
                 slices: 15,
@@ -52,9 +45,6 @@ class Dashboard extends Component{
                 pauseOnHover: true,
                 manualAdvance: false,
             });
-            /*--------------------------
-             collapse
-            ---------------------------- */
             var panel_test = $('.panel-heading a');
             panel_test.on('click', function() {
                 panel_test.removeClass('active');

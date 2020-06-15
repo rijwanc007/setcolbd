@@ -18,8 +18,70 @@
 .client_icon{
     width:100px;
 }
-
-
+.web_application_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.web_application_feature_margin{
+    margin: 21px 0px;
+}
+.mobile_application_details_design{
+    font-size: 25px;
+    line-height: 42px;
+    font-family: inherit;
+}
+.mobile_application_feature_margin{
+    margin: 10px 0px;
+}
+.qa_testing_details_design{
+    font-size: 25px;
+    line-height: 42px;
+    font-family: inherit;
+}
+.qa_testing_feature_margin{
+    margin: 21px 0px;
+}
+.graphics_solution_details_design{
+    font-size: 25px;
+    line-height: 42px;
+    font-family: inherit;
+}
+.graphics_solution_feature_margin{
+    margin: 5px 0px;
+}
+.seo_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.seo_feature_margin{
+    margin: 10px 0px;
+}
+.online_data_security_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.online_data_security_feature_margin{
+    margin: 5px 0px;
+}
+.services_banner{
+    margin-top: 80px;
+    width: 100%;
+}
+.drop_down_nav_bar{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 2px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #2BACE2 !important;
+}
+.drop_down_item_color{
+    color: #2BACE2 !important;
+}
 /*social media start here*/
 #fixed-social {
     position: fixed;
