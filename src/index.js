@@ -3,10 +3,10 @@ import {render} from 'react-dom';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '@fortawesome/fontawesome-free/js/fontawesome'
-import '@fortawesome/fontawesome-free/js/solid'
-import '@fortawesome/fontawesome-free/js/regular'
-import '@fortawesome/fontawesome-free/js/brands'
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/brands';
 import './assets/lib/nivo-slider/css/nivo-slider.css';
 import './assets/lib/animate/animate.min.css';
 import './assets/css/nivo-slider-theme.css';
@@ -30,7 +30,16 @@ import QATesting from './component/pages/QA-&-Testing';
 import GraphicsSolution from './component/pages/GraphicsSolution';
 import SEODigitalMarketing from './component/pages/SEO-&-DigitalMarketing';
 import OnlineDataSecurity from './component/pages/OnlineDataSecurity';
-
+import ERP from './component/pages/ERP';
+import Accounts from './component/pages/Accounts';
+import Inventory from './component/pages/Inventory';
+import SalesAndDistribution from './component/pages/SalesAndDistribution';
+import CRM from './component/pages/CRM';
+import HRAndPayroll from './component/pages/HRAndPayroll';
+import ECommerce from './component/pages/ECommerce';
+import BookingAndReservation from './component/pages/BookingAndReservation';
+import VirtualClassroom from './component/pages/VirtualClassroom';
+import Career from './component/pages/Career';
 
 class LandingPage extends Component{
     render(){
@@ -45,6 +54,16 @@ class LandingPage extends Component{
                     <Route path="/graphics_solution" component={GraphicsSolution}/>
                     <Route path="/seo_&_digital_marketing" component={SEODigitalMarketing}/>
                     <Route path="/online_data_security" component={OnlineDataSecurity}/>
+                    <Route path="/erp" component={ERP}/>
+                    <Route path="/accounts" component={Accounts}/>
+                    <Route path="/inventory" component={Inventory}/>
+                    <Route path="/sales_&_distribution" component={SalesAndDistribution}/>
+                    <Route path="/crm" component={CRM}/>
+                    <Route path="/hr_&_payroll" component={HRAndPayroll}/>
+                    <Route path="/e_commerce" component={ECommerce}/>
+                    <Route path="/booking_&_reservation" component={BookingAndReservation}/>
+                    <Route path="/virtual_class_room" component={VirtualClassroom}/>
+                    <Route path="/career" component={Career}/>
                 </Switch>
                 </ScrollHandling>
             </div>

@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import { Navbar,Image,Nav } from 'react-bootstrap'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import logo from '../../assets/img/logo/setcolbd.png'
+import {Link} from "react-router-dom";
 
 class Header extends Component{
     render(){
@@ -22,7 +23,7 @@ class Header extends Component{
                                                 <AnchorLink offset='100' href="#product" className="logo_icon">Products</AnchorLink>
                                                 <AnchorLink offset='100' href="#portfolio" className="logo_icon">Portfolio</AnchorLink>
                                                 <AnchorLink offset='100' href="#contact" className="logo_icon">Contact</AnchorLink>
-                                                <AnchorLink offset='100' href="#career" className="logo_icon">Career</AnchorLink>
+                                                <Link to="/career" className={'logo_icon'}>Career</Link>
                                             </Nav>
                                             <div style={{marginLeft:'7%',color:'#2BACE2'}}>
                                                 <span><i className="fa fa-phone"></i> : +88-0255112226</span>

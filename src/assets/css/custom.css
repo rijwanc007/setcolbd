@@ -66,6 +66,86 @@
 .online_data_security_feature_margin{
     margin: 10px 0px;
 }
+.erp_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.erp_feature_margin{
+    margin: 10px 0px;
+}
+.accounts_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.accounts_feature_margin{
+    margin: 10px 0px;
+}
+.inventory_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.inventory_feature_margin{
+    margin: 10px 0px;
+}
+.sales_and_distribution_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.sales_and_distribution_feature_margin{
+    margin: 10px 0px;
+}
+.crm_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.crm_feature_margin{
+    margin: 10px 0px;
+}
+.hr_and_payroll_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.hr_and_payroll_feature_margin{
+    margin: 10px 0px;
+}
+.e_commerce_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.e_commerce_feature_margin{
+    margin: 10px 0px;
+}
+.booking_and_reservation_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.booking_and_reservation_feature_margin{
+    margin: 10px 0px;
+}
+.virtual_class_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.virtual_class_feature_design{
+    margin: 10px 0px;
+}
+.career_details_design{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: inherit;
+}
+.footer_link{
+    margin-right: 5px;
+}
 .services_banner{
     margin-top: 80px;
     width: 100%;
