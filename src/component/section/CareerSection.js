@@ -20,7 +20,7 @@ class CareerSection extends Component{
                                 <p className={'career_details_design'}>Skies Engineering & Technologies Company is looking for some Hardworking, Punctual & Challenging People. But opportunity is limited. So apply now and grab your position for better tomorrow.</p>
                             </div>
                             <div className = "col-md-12 col-sm-12 col-xl-12 text-center">
-                                <div><input type="text" className = "form-control" accept=".pdf" placeholder="enter your cv in pdf format"/></div><br/>
+                                <div><input type="file" style={{height:'44px'}} className = "form-control" accept=".pdf" placeholder="enter your cv in pdf format"/></div><br/>
                                 <div><button className="btn btn-info">Apply</button></div>
                             </div>
                         </div>

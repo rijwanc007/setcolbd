@@ -143,6 +143,9 @@
     line-height: 30px;
     font-family: inherit;
 }
+.icon_feature{
+    width : 70px;
+}
 .footer_link{
     margin-right: 5px;
 }

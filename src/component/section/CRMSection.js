@@ -1,19 +1,18 @@
 import React,{Component} from 'react';
 import crm_banner from "../../assets/img/products/crm_banner.png";
-import animation_3d from "../../assets/img/icon/animation-3d.png";
-import background_remove_and_retouch from "../../assets/img/icon/background-remove-and-retouch.png";
-import digital_advertise from "../../assets/img/icon/digital-advertise.png";
-import gamming_character_design from "../../assets/img/icon/gamming-character-design.png";
-import image_manipulation from "../../assets/img/icon/image-manipulation.png";
-import image_trace_or_vectorize from "../../assets/img/icon/image-trace-or-vectorize.png";
-import logo_design from "../../assets/img/icon/logo-design.png";
-import mockup_design from "../../assets/img/icon/mockup-design.png";
-import motion_grapics from "../../assets/img/icon/motion-grapics.png";
-import product_design_e_commerce from "../../assets/img/icon/products-design(for-ecommerce-sites).png";
-import social_media_design from "../../assets/img/icon/social-media-design.png";
-import ui_ux_design from "../../assets/img/icon/ui-ux-design.png";
-import website_and_apps_mockup_design from "../../assets/img/icon/website-and-apps-mockup-design.png";
-import white_board_animation from "../../assets/img/icon/white-board-animation.png";
+import chat_integration from "../../assets/img/icon/Chat-Integration.png";
+import customer_management from "../../assets/img/icon/Customer-Management.png";
+import customize_option from "../../assets/img/icon/Customization-Options.png";
+import email_marketing from "../../assets/img/icon/Email-Marketing-Integration.png";
+import lead_management from "../../assets/img/icon/Lead-Management.PNG";
+import project_management from "../../assets/img/icon/Project-Management.png";
+import reports from "../../assets/img/icon/Reports.png";
+import role_based_view from "../../assets/img/icon/Role-Based-Views.png";
+import sales_management from "../../assets/img/icon/Sales-management.PNG";
+import social_management from "../../assets/img/icon/Social-Media-Management-Integration.png";
+import staff_management from "../../assets/img/icon/Staff-Management.png";
+import support_system from "../../assets/img/icon/Support-System-(ticket).png";
+import task_management from "../../assets/img/icon/Task-Management.png";
 
 class CRMSection extends Component{
     render(){
@@ -52,66 +51,58 @@ class CRMSection extends Component{
                             <div className="section-headline text-center">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
-                            <div className = {'row'}>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {animation_3d} alt={animation_3d}/>
-                                    <span>&nbsp;Animation 3D</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {background_remove_and_retouch} alt={background_remove_and_retouch}/>
-                                    <span>&nbsp;Background Remove & Retouch</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {digital_advertise} alt={digital_advertise}/>
-                                    <span>&nbsp;Digital Advertise</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {gamming_character_design} alt={gamming_character_design}/>
-                                    <span>&nbsp;Gaming Character Design</span>
-                                </div>
-
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {image_manipulation} alt={image_manipulation}/>
-                                    <span>&nbsp;Image Manipulation</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {image_trace_or_vectorize} alt={image_trace_or_vectorize}/>
-                                    <span>&nbsp;Image Trace Or Vectorized</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {logo_design} alt={logo_design}/>
-                                    <span>&nbsp;Logo Design</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {mockup_design} alt={mockup_design}/>
-                                    <span>&nbsp;Mock Up Design</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {motion_grapics} alt={motion_grapics}/>
-                                    <span>&nbsp;Motion Graphics</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {product_design_e_commerce} alt={product_design_e_commerce}/>
-                                    <span>&nbsp;Product Design For E-Commerce</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {social_media_design} alt={social_media_design}/>
-                                    <span>&nbsp;Social Media Design</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {ui_ux_design} alt={ui_ux_design}/>
-                                    <span>&nbsp;UI-UX Design</span>
-                                </div>
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {website_and_apps_mockup_design} alt={website_and_apps_mockup_design}/>
-                                    <span>&nbsp;Website & Apps Mock Up Design</span>
-                                </div>
-
-                                <div className = {'col-md-3 crm_feature_margin'}>
-                                    <img src = {white_board_animation} alt={white_board_animation}/>
-                                    <span>&nbsp;White Board Animation</span>
-                                </div>
-                            </div>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {chat_integration} alt={chat_integration}/>
+                            <span>&nbsp;Chat-Integration</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {customer_management} alt={customer_management}/>
+                            <span>&nbsp;Customer-Management</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {customize_option} alt={customize_option}/>
+                            <span>&nbsp;Customization-Options</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {email_marketing} alt={email_marketing}/>
+                            <span>&nbsp;Email-Marketing-Integration</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {lead_management} alt={lead_management}/>
+                            <span>&nbsp;Lead-Management</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {project_management} alt={project_management}/>
+                            <span>&nbsp;Project-Management</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {reports} alt={reports}/>
+                            <span>&nbsp;Reports</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {role_based_view} alt={role_based_view}/>
+                            <span>&nbsp;Role-Based-Views</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {sales_management} alt={sales_management}/>
+                            <span>&nbsp;Sales-management</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {social_management} alt={social_management}/>
+                            <span>&nbsp;Social-Media-Management-Integration</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {staff_management} alt={staff_management}/>
+                            <span>&nbsp;Staff-Management</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {support_system} alt={support_system}/>
+                            <span>&nbsp;Support-System-(ticket)</span>
+                        </div>
+                        <div className = {'col-md-3 crm_feature_margin'}>
+                            <img className={'icon_feature'} src = {task_management} alt={task_management}/>
+                            <span>&nbsp;Task-Management</span>
                         </div>
                     </div>
                 </div>

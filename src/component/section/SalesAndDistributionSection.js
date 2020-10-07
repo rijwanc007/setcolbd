@@ -1,19 +1,25 @@
 import React,{Component} from 'react';
 import sales_and_distribution_banner from "../../assets/img/products/sales-and-distribution_banner.png";
-import animation_3d from "../../assets/img/icon/animation-3d.png";
-import background_remove_and_retouch from "../../assets/img/icon/background-remove-and-retouch.png";
-import digital_advertise from "../../assets/img/icon/digital-advertise.png";
-import gamming_character_design from "../../assets/img/icon/gamming-character-design.png";
-import image_manipulation from "../../assets/img/icon/image-manipulation.png";
-import image_trace_or_vectorize from "../../assets/img/icon/image-trace-or-vectorize.png";
-import logo_design from "../../assets/img/icon/logo-design.png";
-import mockup_design from "../../assets/img/icon/mockup-design.png";
-import motion_grapics from "../../assets/img/icon/motion-grapics.png";
-import product_design_e_commerce from "../../assets/img/icon/products-design(for-ecommerce-sites).png";
-import social_media_design from "../../assets/img/icon/social-media-design.png";
-import ui_ux_design from "../../assets/img/icon/ui-ux-design.png";
-import website_and_apps_mockup_design from "../../assets/img/icon/website-and-apps-mockup-design.png";
-import white_board_animation from "../../assets/img/icon/white-board-animation.png";
+import account_panel from "../../assets/img/icon/account-panel.PNG";
+import admin_profile from "../../assets/img/icon/admin-profile.png";
+import approved_sale from "../../assets/img/icon/approved-sale-panel.PNG";
+import cancel_sale from "../../assets/img/icon/cancel-sale-panel.PNG";
+import challan_panel from "../../assets/img/icon/challan-panel.PNG";
+import collection_create from "../../assets/img/icon/collection-create.png";
+import dealer_account from "../../assets/img/icon/dealer-account.PNG";
+import dealer_profile from "../../assets/img/icon/dealer-profile.png";
+import distributor_panel from "../../assets/img/icon/distributor-panel.png";
+import employee_profile from "../../assets/img/icon/employee-profile.png";
+import invoice_panel from "../../assets/img/icon/invoice-panel.png";
+import manager_panel from "../../assets/img/icon/manager-panel.PNG";
+import offer_setup from "../../assets/img/icon/offer-setup.png";
+import rm_panel from "../../assets/img/icon/rm-panel.PNG";
+import sales_admin_panel from "../../assets/img/icon/sale-admin-panel(monitoring-rm,manager,account).png";
+import single_or_mulitple_product from "../../assets/img/icon/single-or-mulitple-product-and-its-sub-category.png";
+import single_or_multiple_brand from "../../assets/img/icon/single-or-multiple-brand.png";
+import undelivery_party from "../../assets/img/icon/undelivery-party-list.png";
+import user_create from "../../assets/img/icon/user-create.png";
+import warehouse from "../../assets/img/icon/warehouse-panel.png";
 
 class SalesAndDistributionSection extends Component{
     render(){
@@ -61,66 +67,86 @@ class SalesAndDistributionSection extends Component{
                             <div className="section-headline text-center">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
-                            <div className = {'row'}>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {animation_3d} alt={animation_3d}/>
-                                    <span>&nbsp;Animation 3D</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {background_remove_and_retouch} alt={background_remove_and_retouch}/>
-                                    <span>&nbsp;Background Remove & Retouch</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {digital_advertise} alt={digital_advertise}/>
-                                    <span>&nbsp;Digital Advertise</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {gamming_character_design} alt={gamming_character_design}/>
-                                    <span>&nbsp;Gaming Character Design</span>
-                                </div>
-
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {image_manipulation} alt={image_manipulation}/>
-                                    <span>&nbsp;Image Manipulation</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {image_trace_or_vectorize} alt={image_trace_or_vectorize}/>
-                                    <span>&nbsp;Image Trace Or Vectorized</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {logo_design} alt={logo_design}/>
-                                    <span>&nbsp;Logo Design</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {mockup_design} alt={mockup_design}/>
-                                    <span>&nbsp;Mock Up Design</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {motion_grapics} alt={motion_grapics}/>
-                                    <span>&nbsp;Motion Graphics</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {product_design_e_commerce} alt={product_design_e_commerce}/>
-                                    <span>&nbsp;Product Design For E-Commerce</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {social_media_design} alt={social_media_design}/>
-                                    <span>&nbsp;Social Media Design</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {ui_ux_design} alt={ui_ux_design}/>
-                                    <span>&nbsp;UI-UX Design</span>
-                                </div>
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {website_and_apps_mockup_design} alt={website_and_apps_mockup_design}/>
-                                    <span>&nbsp;Website & Apps Mock Up Design</span>
-                                </div>
-
-                                <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                                    <img src = {white_board_animation} alt={white_board_animation}/>
-                                    <span>&nbsp;White Board Animation</span>
-                                </div>
-                            </div>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {account_panel} alt={account_panel}/>
+                            <span>&nbsp;Account-Panel</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {admin_profile} alt={admin_profile}/>
+                            <span>&nbsp;Admin-Profile</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {approved_sale} alt={approved_sale}/>
+                            <span>&nbsp;Approved-Sale-Panel</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {cancel_sale} alt={cancel_sale}/>
+                            <span>&nbsp;Cancel-Sale-Panel</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {challan_panel} alt={challan_panel}/>
+                            <span>&nbsp;Challan-Panel</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {collection_create} alt={collection_create}/>
+                            <span>&nbsp;Collection-Create</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {dealer_account} alt={dealer_account}/>
+                            <span>&nbsp;Dealer-Account</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {dealer_profile} alt={dealer_profile}/>
+                            <span>&nbsp;Dealer-Profile</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {distributor_panel} alt={distributor_panel}/>
+                            <span>&nbsp;Distributor-Panel</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {employee_profile} alt={employee_profile}/>
+                            <span>&nbsp;Employee-Profile</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {invoice_panel} alt={invoice_panel}/>
+                            <span>&nbsp;Invoice-Panel</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {manager_panel} alt={manager_panel}/>
+                            <span>&nbsp;Manager-Panel</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {offer_setup} alt={offer_setup}/>
+                            <span>&nbsp;Offer-Setup</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {rm_panel} alt={rm_panel}/>
+                            <span>&nbsp;RM-Panel</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {sales_admin_panel} alt={sales_admin_panel}/>
+                            <span>&nbsp;Sale-Admin-Panel(monitoring-rm,manager,account)</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {single_or_mulitple_product} alt={single_or_mulitple_product}/>
+                            <span>&nbsp;Single-Or-Multiple-Product-And-Its-Sub-Category</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {single_or_multiple_brand} alt={single_or_multiple_brand}/>
+                            <span>&nbsp;Single-Or-Multiple-Brand</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {undelivery_party} alt={undelivery_party}/>
+                            <span>&nbsp;Undelivery-Party-List</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {user_create} alt={user_create}/>
+                            <span>&nbsp;User-Create</span>
+                        </div>
+                        <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
+                            <img className={'icon_feature'} src = {warehouse} alt={warehouse}/>
+                            <span>&nbsp;Warehouse-Panel</span>
                         </div>
                     </div>
                 </div>

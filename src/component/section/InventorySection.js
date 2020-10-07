@@ -1,19 +1,15 @@
 import React,{Component} from 'react';
 import inventory_banner from "../../assets/img/products/inventory_banner.png";
-import animation_3d from "../../assets/img/icon/animation-3d.png";
-import background_remove_and_retouch from "../../assets/img/icon/background-remove-and-retouch.png";
-import digital_advertise from "../../assets/img/icon/digital-advertise.png";
-import gamming_character_design from "../../assets/img/icon/gamming-character-design.png";
-import image_manipulation from "../../assets/img/icon/image-manipulation.png";
-import image_trace_or_vectorize from "../../assets/img/icon/image-trace-or-vectorize.png";
-import logo_design from "../../assets/img/icon/logo-design.png";
-import mockup_design from "../../assets/img/icon/mockup-design.png";
-import motion_grapics from "../../assets/img/icon/motion-grapics.png";
-import product_design_e_commerce from "../../assets/img/icon/products-design(for-ecommerce-sites).png";
-import social_media_design from "../../assets/img/icon/social-media-design.png";
-import ui_ux_design from "../../assets/img/icon/ui-ux-design.png";
-import website_and_apps_mockup_design from "../../assets/img/icon/website-and-apps-mockup-design.png";
-import white_board_animation from "../../assets/img/icon/white-board-animation.png";
+import advance_payment from "../../assets/img/icon/Advance-Payment-Scheduling.png";
+import barcode from "../../assets/img/icon/Barcoding-&-Tagging.png";
+import cloud_based from "../../assets/img/icon/Cloud-Based-Software-with-Real-Time-Updates.png";
+import inventory_app from "../../assets/img/icon/Inventory-App-Integration-with-Other-Systems.png";
+import inventory_forcasting from "../../assets/img/icon/Inventory-Forecasting.png";
+import inventory_management from "../../assets/img/icon/Inventory-Management.png";
+import inventory_security from "../../assets/img/icon/Inventory-Security-and-Backups.png";
+import inventory_tracking from "../../assets/img/icon/Inventory-Tracking.png";
+import iot from "../../assets/img/icon/IoT-Integration.png";
+import reporting from "../../assets/img/icon/Reporting-Tools.png";
 
 class InventorySection extends Component{
     render(){
@@ -54,66 +50,46 @@ class InventorySection extends Component{
                             <div className="section-headline text-center">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
-                            <div className = {'row'}>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {animation_3d} alt={animation_3d}/>
-                                    <span>&nbsp;Animation 3D</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {background_remove_and_retouch} alt={background_remove_and_retouch}/>
-                                    <span>&nbsp;Background Remove & Retouch</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {digital_advertise} alt={digital_advertise}/>
-                                    <span>&nbsp;Digital Advertise</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {gamming_character_design} alt={gamming_character_design}/>
-                                    <span>&nbsp;Gaming Character Design</span>
-                                </div>
-
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {image_manipulation} alt={image_manipulation}/>
-                                    <span>&nbsp;Image Manipulation</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {image_trace_or_vectorize} alt={image_trace_or_vectorize}/>
-                                    <span>&nbsp;Image Trace Or Vectorized</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {logo_design} alt={logo_design}/>
-                                    <span>&nbsp;Logo Design</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {mockup_design} alt={mockup_design}/>
-                                    <span>&nbsp;Mock Up Design</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {motion_grapics} alt={motion_grapics}/>
-                                    <span>&nbsp;Motion Graphics</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {product_design_e_commerce} alt={product_design_e_commerce}/>
-                                    <span>&nbsp;Product Design For E-Commerce</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {social_media_design} alt={social_media_design}/>
-                                    <span>&nbsp;Social Media Design</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {ui_ux_design} alt={ui_ux_design}/>
-                                    <span>&nbsp;UI-UX Design</span>
-                                </div>
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {website_and_apps_mockup_design} alt={website_and_apps_mockup_design}/>
-                                    <span>&nbsp;Website & Apps Mock Up Design</span>
-                                </div>
-
-                                <div className = {'col-md-3 inventory_feature_margin'}>
-                                    <img src = {white_board_animation} alt={white_board_animation}/>
-                                    <span>&nbsp;White Board Animation</span>
-                                </div>
-                            </div>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {advance_payment} alt={advance_payment}/>
+                            <span>&nbsp;Advance-Payment-Scheduling</span>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {barcode} alt={barcode}/>
+                            <span>&nbsp;Barcoding-&-Tagging</span>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {cloud_based} alt={cloud_based}/>
+                            <span>&nbsp;Cloud-Based-Software-with-Real-Time-Updates</span>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {inventory_app} alt={inventory_app}/>
+                            <span>&nbsp;Inventory-App-Integration-with-Other-Systems</span>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {inventory_forcasting} alt={inventory_forcasting}/>
+                            <span>&nbsp;Inventory-Forecasting</span>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {inventory_management} alt={inventory_management}/>
+                            <span>&nbsp;Inventory-Management</span>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {inventory_security} alt={inventory_security}/>
+                            <span>&nbsp;Inventory-Security-and-Backups</span>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {inventory_tracking} alt={inventory_tracking}/>
+                            <span>&nbsp;Inventory-Tracking</span>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {iot} alt={iot}/>
+                            <span>&nbsp;IoT-Integration</span>
+                        </div>
+                        <div className = {'col-md-3 inventory_feature_margin'}>
+                            <img className={'icon_feature'} src = {reporting} alt={reporting}/>
+                            <span>&nbsp;Reporting-Tools</span>
                         </div>
                     </div>
                 </div>
