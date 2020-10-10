@@ -387,3 +387,9 @@ preview-2
   position: relative;
   height: 100%;
 }
+/*@media all and (max-width:320px) {*/
+/*    .another_one{*/
+/*        width: 0px !important;*/
+/*    }*/
+/*}*/
+

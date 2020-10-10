@@ -1,9 +1,10 @@
 import React,{Component} from 'react';
 import erp_banner from "../../assets/img/products/erp_banner.png";
+import vms from "../../assets/img/icon/vehicle-management-system.png";
 import crm from "../../assets/img/icon/Customer-Relationship-Management.png";
 import fms from "../../assets/img/icon/Financial-Management-System.png";
 import hrm from "../../assets/img/icon/HRM-and-Payroll Management-System.png";
-import mms from "../../assets/img/icon/Manufacturing Management-System.PNG";
+import mms from "../../assets/img/icon/manufacturing_management_system.png";
 import pms from "../../assets/img/icon/Purchase Management-System.png";
 import sdm from "../../assets/img/icon/Sales-and-Distribution-Management-System.PNG";
 import wims from "../../assets/img/icon/Warehouse-and-Inventory-Management-System.PNG";
@@ -42,40 +43,44 @@ class ERPSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
                         </div>
                         <div className = {'col-md-3 erp_feature_margin'}>
-                            <img className={'icon_feature'} src = {crm} alt={crm}/>
-                            <span>&nbsp;Customer-Relationship-Management</span>
+                            <div><img className={'icon_feature'} src = {hrm} alt={hrm}/></div><br/>
+                            <h6>HRM & Payroll Management System</h6>
                         </div>
                         <div className = {'col-md-3 erp_feature_margin'}>
-                            <img className={'icon_feature'} src = {fms} alt={fms}/>
-                            <span>&nbsp;Financial-Management-System</span>
+                            <div><img className={'icon_feature'} src = {sdm} alt={sdm}/></div><br/>
+                            <h6>Sales & Distribution Management System</h6>
                         </div>
                         <div className = {'col-md-3 erp_feature_margin'}>
-                            <img className={'icon_feature'} src = {hrm} alt={hrm}/>
-                            <span>&nbsp;HRM-and-Payroll Management-System</span>
+                            <div><img className={'icon_feature'} src = {pms} alt={pms}/></div><br/>
+                            <h6>Purchase Management System</h6>
                         </div>
                         <div className = {'col-md-3 erp_feature_margin'}>
-                            <img className={'icon_feature'} src = {mms} alt={mms}/>
-                            <span>&nbsp;Manufacturing Management-System</span>
+                            <div><img className={'icon_feature'} src = {wims} alt={wims}/></div><br/>
+                            <h6>Warehouse & Inventory Management System</h6>
                         </div>
                         <div className = {'col-md-3 erp_feature_margin'}>
-                            <img className={'icon_feature'} src = {pms} alt={pms}/>
-                            <span>&nbsp;Purchase Management-System</span>
+                            <div><img className={'icon_feature'} src = {mms} alt={mms}/></div><br/>
+                            <h6>Manufacturing Management System</h6>
                         </div>
                         <div className = {'col-md-3 erp_feature_margin'}>
-                            <img className={'icon_feature'} src = {sdm} alt={sdm}/>
-                            <span>&nbsp;Sales-and-Distribution-Management-System</span>
+                            <div><img className={'icon_feature'} src = {crm} alt={crm}/></div><br/>
+                            <h6>Customer Relationship Management</h6>
                         </div>
                         <div className = {'col-md-3 erp_feature_margin'}>
-                            <img className={'icon_feature'} src = {wims} alt={wims}/>
-                            <span>&nbsp;Warehouse-and-Inventory-Management-System</span>
+                            <div><img className={'icon_feature'} src = {fms} alt={fms}/></div><br/>
+                            <h6>Financial Management System</h6>
+                        </div>
+                        <div className = {'col-md-3 erp_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {vms} alt={vms}/></div><br/>
+                            <h6>Vehicle Management System</h6>
                         </div>
                     </div>
                 </div>

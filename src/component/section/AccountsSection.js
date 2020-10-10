@@ -61,128 +61,128 @@ class AccountsSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {account_holds} alt={account_holds}/>
-                            <span>&nbsp;Account-Holds</span>
+                            <div><img className={'icon_feature'} src = {account_holds} alt={account_holds}/></div><br/>
+                            <h6>Account Holds</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {account_payable} alt={account_payable}/>
-                            <span>&nbsp;Accounts-Payable-Purchase-Order-Reconciliation</span>
+                            <div><img className={'icon_feature'} src = {account_payable} alt={account_payable}/></div><br/>
+                            <h6>Accounts Payable Purchase Order Reconciliation</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {ap_document} alt={ap_document}/>
-                            <span>&nbsp;AP-Document-Attachment</span>
+                            <div><img className={'icon_feature'} src = {ap_document} alt={ap_document}/></div><br/>
+                            <h6>AP Document Attachment</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {ar_aging} alt={ar_aging}/>
-                            <span>&nbsp;AR-Aging-Reports</span>
+                            <div><img className={'icon_feature'} src = {ar_aging} alt={ar_aging}/></div><br/>
+                            <h6>AR Aging Reports</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {ar_comment} alt={ar_comment}/>
-                            <span>&nbsp;AR-Comment-Support</span>
+                            <div><img className={'icon_feature'} src = {ar_comment} alt={ar_comment}/></div><br/>
+                            <h6>AR Comment Support</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {balance_forward} alt={balance_forward}/>
-                            <span>&nbsp;Balance-Forward</span>
+                            <div><img className={'icon_feature'} src = {balance_forward} alt={balance_forward}/></div><br/>
+                            <h6>Balance Forward</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {check_printing} alt={check_printing}/>
-                            <span>&nbsp;Check-Printing</span>
+                            <div><img className={'icon_feature'} src = {check_printing} alt={check_printing}/></div><br/>
+                            <h6>Check Printing</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {cost_of_goods} alt={cost_of_goods}/>
-                            <span>&nbsp;Cost-of-Goods-Sold-Reporting</span>
+                            <div><img className={'icon_feature'} src = {cost_of_goods} alt={cost_of_goods}/></div><br/>
+                            <h6>Cost of Goods Sold Reporting</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {credit_card} alt={credit_card}/>
-                            <span>&nbsp;Credit-Card-Payment-Support</span>
+                            <div><img className={'icon_feature'} src = {credit_card} alt={credit_card}/></div><br/>
+                            <h6>Credit Card Payment Support</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {credit_notes} alt={credit_notes}/>
-                            <span>&nbsp;Credit-Notes</span>
+                            <div><img className={'icon_feature'} src = {credit_notes} alt={credit_notes}/></div><br/>
+                            <h6>Credit Notes</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {custom_account_receivable} alt={custom_account_receivable}/>
-                            <span>&nbsp;Custom-Accounts-Receivable-Terms</span>
+                            <div><img className={'icon_feature'} src = {custom_account_receivable} alt={custom_account_receivable}/></div><br/>
+                            <h6>Custom Accounts Receivable Terms</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {custom_account_management} alt={custom_account_management}/>
-                            <span>&nbsp;Customer-Accounts-Management</span>
+                            <div><img className={'icon_feature'} src = {custom_account_management} alt={custom_account_management}/></div><br/>
+                            <h6>Customer Accounts Management</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {eft_support} alt={eft_support}/>
-                            <span>&nbsp;EFT-Support</span>
+                            <div><img className={'icon_feature'} src = {eft_support} alt={eft_support}/></div><br/>
+                            <h6>EFT Support</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {email_invoice} alt={email_invoice}/>
-                            <span>&nbsp;Email-Invoicing</span>
+                            <div><img className={'icon_feature'} src = {email_invoice} alt={email_invoice}/></div><br/>
+                            <h6>Email Invoicing</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img src = {envelopes} alt={envelopes}/>
-                            <span>&nbsp;Envelopes</span>
+                            <div><img className={'icon_feature'} src = {envelopes} alt={envelopes}/></div><br/>
+                            <h6>Envelopes</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {invoice_creation} alt={invoice_creation}/>
-                            <span>&nbsp;Invoice-Creation</span>
+                            <div><img className={'icon_feature'} src = {invoice_creation} alt={invoice_creation}/></div><br/>
+                            <h6>Invoice Creation</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {invoice_duplication} alt={invoice_duplication}/>
-                            <span>&nbsp;Invoice-Duplication</span>
+                            <div><img className={'icon_feature'} src = {invoice_duplication} alt={invoice_duplication}/></div><br/>
+                            <h6>Invoice Duplication</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {pack_slips} alt={pack_slips}/>
-                            <span>&nbsp;Pack-Slips</span>
+                            <div><img className={'icon_feature'} src = {pack_slips} alt={pack_slips}/></div><br/>
+                            <h6>Pack Slips</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {payment_date} alt={payment_date}/>
-                            <span>&nbsp;Payment-Date-Calculation</span>
+                            <div><img className={'icon_feature'} src = {payment_date} alt={payment_date}/></div><br/>
+                            <h6>Payment Date Calculation</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {progress_billing} alt={progress_billing}/>
-                            <span>&nbsp;Progress-Billing</span>
+                            <div><img className={'icon_feature'} src = {progress_billing} alt={progress_billing}/></div><br/>
+                            <h6>Progress Billing</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {promotions_coupons} alt={promotions_coupons}/>
-                            <span>&nbsp;Promotions,-Coupons,-Rebates</span>
+                            <div><img className={'icon_feature'} src = {promotions_coupons} alt={promotions_coupons}/></div><br/>
+                            <h6>Promotions,Coupons,Rebates</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {receipts} alt={receipts}/>
-                            <span>&nbsp;Receipts</span>
+                            <div><img className={'icon_feature'} src = {receipts} alt={receipts}/></div><br/>
+                            <h6>Receipts</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {recuring_invoice} alt={recuring_invoice}/>
-                            <span>&nbsp;Recurring-Invoices</span>
+                            <div><img className={'icon_feature'} src = {recuring_invoice} alt={recuring_invoice}/></div><br/>
+                            <h6>Recurring Invoices</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {reminders} alt={reminders}/>
-                            <span>&nbsp;Reminders</span>
+                            <div><img className={'icon_feature'} src = {reminders} alt={reminders}/></div><br/>
+                            <h6>Reminders</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {rma_support} alt={rma_support}/>
-                            <span>&nbsp;RMA-Support</span>
+                            <div><img className={'icon_feature'} src = {rma_support} alt={rma_support}/></div><br/>
+                            <h6>RMA Support</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {sales_attribution} alt={sales_attribution}/>
-                            <span>&nbsp;Sales-Attributions</span>
+                            <div><img className={'icon_feature'} src = {sales_attribution} alt={sales_attribution}/></div><br/>
+                            <h6>Sales Attributions</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {sales_tax_calculation} alt={sales_tax_calculation}/>
-                            <span>&nbsp;Sales-Tax-Calculation</span>
+                            <div><img className={'icon_feature'} src = {sales_tax_calculation} alt={sales_tax_calculation}/></div><br/>
+                            <h6>Sales Tax Calculation</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {suspicious_payment_alert} alt={suspicious_payment_alert}/>
-                            <span>&nbsp;Suspicious-Payment-Alerts</span>
+                            <div><img className={'icon_feature'} src = {suspicious_payment_alert} alt={suspicious_payment_alert}/></div><br/>
+                            <h6>Suspicious Payment Alerts</h6>
                         </div>
                         <div className = {'col-md-3 accounts_feature_margin'}>
-                            <img className={'icon_feature'} src = {vendor_records} alt={vendor_records}/>
-                            <span>&nbsp;Vendor-Records-Management</span>
+                            <div><img className={'icon_feature'} src = {vendor_records} alt={vendor_records}/></div><br/>
+                            <h6>Vendor Records Management</h6>
                         </div>
                     </div>
                 </div>

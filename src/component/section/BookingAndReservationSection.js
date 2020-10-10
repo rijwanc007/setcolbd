@@ -42,56 +42,56 @@ class BookingAndReservationSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {calender} alt={calender}/>
-                            <span>&nbsp;Calender</span>
+                            <div><img className={'icon_feature'} src = {calender} alt={calender}/></div><br/>
+                            <h6>Calender</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {channel} alt={channel}/>
-                            <span>&nbsp;Channel-management</span>
+                            <div><img className={'icon_feature'} src = {channel} alt={channel}/></div><br/>
+                            <h6>Channel management</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {different} alt={different}/>
-                            <span>&nbsp;Different-languages-and-currencies</span>
+                            <div><img className={'icon_feature'} src = {different} alt={different}/></div><br/>
+                            <h6>Different languages & currencies</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {discount} alt={discount}/>
-                            <span>&nbsp;Discounts-and-gift-vouchers</span>
+                            <div><img className={'icon_feature'} src = {discount} alt={discount}/></div><br/>
+                            <h6>Discounts & gift vouchers</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {email_automation} alt={email_automation}/>
-                            <span>&nbsp;Email-automation</span>
+                            <div><img className={'icon_feature'} src = {email_automation} alt={email_automation}/></div><br/>
+                            <h6>Email automation</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {front} alt={front}/>
-                            <span>&nbsp;Front-office-styling-and-images</span>
+                            <div><img className={'icon_feature'} src = {front} alt={front}/></div><br/>
+                            <h6>Front office styling & images</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {invoicing} alt={invoicing}/>
-                            <span>&nbsp;Invoicing</span>
+                            <div><img className={'icon_feature'} src = {invoicing} alt={invoicing}/></div><br/>
+                            <h6>Invoicing</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {multiple} alt={multiple}/>
-                            <span>&nbsp;Multiple-payment-options</span>
+                            <div><img className={'icon_feature'} src = {multiple} alt={multiple}/></div><br/>
+                            <h6>Multiple payment options</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {real} alt={real}/>
-                            <span>&nbsp;Real-time-booking</span>
+                            <div><img className={'icon_feature'} src = {real} alt={real}/></div><br/>
+                            <h6>Real time booking</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {reports} alt={reports}/>
-                            <span>&nbsp;Reports</span>
+                            <div><img className={'icon_feature'} src = {reports} alt={reports}/></div><br/>
+                            <h6>Reports</h6>
                         </div>
                         <div className = {'col-md-3 booking_and_reservation_feature_margin'}>
-                            <img className={'icon_feature'} src = {web} alt={web}/>
-                            <span>&nbsp;Web-check-in</span>
+                            <div><img className={'icon_feature'} src = {web} alt={web}/></div><br/>
+                            <h6>Web check in</h6>
                         </div>
                     </div>
                 </div>

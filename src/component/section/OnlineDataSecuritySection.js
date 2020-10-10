@@ -71,133 +71,124 @@ class OnlineDataSecuritySection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className = "container">
+                <div className = "container text-center">
                     <div className = "row">
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
-                            <div className = {'row'}>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {technical_support} alt={technical_support}/>
-                                    <span>&nbsp;24/7 Technical Support</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {system_update} alt={system_update}/>
-                                    <span>&nbsp;99.9% System Update</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {address_bar_visibilities} alt={address_bar_visibilities}/>
-                                    <span>&nbsp;Address Bar Visibilities</span>
-                                </div>
-
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {automated_backup} alt={automated_backup}/>
-                                    <span>&nbsp;Automated Backup</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {block_harmful_trafic} alt={block_harmful_trafic}/>
-                                    <span>&nbsp;Block Harmful Traffic</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {build_customer_trust} alt={build_customer_trust}/>
-                                    <span>&nbsp;Build Customer Trust</span>
-                                </div>
-
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {clear_dashboard_option} alt={clear_dashboard_option}/>
-                                    <span>&nbsp;Clear Dashboard Option</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {data_migration} alt={data_migration}/>
-                                    <span>&nbsp;Data Migration</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {data_security} alt={data_security}/>
-                                    <span>&nbsp;Data Security</span>
-                                </div>
-
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {easy_web_access} alt={easy_web_access}/>
-                                    <span>&nbsp;Easy Web Access</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {easy_access_web_mobile} alt={easy_access_web_mobile}/>
-                                    <span>&nbsp;Easy Access From Desktop & Mobile Devices</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {easy_payment_option} alt={easy_payment_option}/>
-                                    <span>&nbsp;Easy Payment Option</span>
-                                </div>
-
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {easy_setting_option} alt={easy_setting_option}/>
-                                    <span>&nbsp;Easy Setting Option</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {email_anty_spam_scan} alt={email_anty_spam_scan}/>
-                                    <span>&nbsp;Email Anti Spam Scan</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {extend_validation} alt={extend_validation}/>
-                                    <span>&nbsp;Extend Validation</span>
-                                </div>
-
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {find_fix_malware} alt={find_fix_malware}/>
-                                    <span>&nbsp;Find & Fix Malware</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {guaranteded_security} alt={guaranteded_security}/>
-                                    <span>&nbsp;Guaranteed Security</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {instant_push_notification} alt={instant_push_notification}/>
-                                    <span>&nbsp;Instant Push Notification</span>
-                                </div>
-
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {mobile_friendly_interface} alt={mobile_friendly_interface}/>
-                                    <span>&nbsp;Mobile Friendly Interface</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {network_scanning} alt={network_scanning}/>
-                                    <span>&nbsp;Network Scanning</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {priniting_facilities} alt={priniting_facilities}/>
-                                    <span>&nbsp;Printing Facilities</span>
-                                </div>
-
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {proven_customize} alt={proven_customize}/>
-                                    <span>&nbsp;Proven Customize</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {secure_domain_sub_domain} alt={secure_domain_sub_domain}/>
-                                    <span>&nbsp;Secure Domain & Sub Domain</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {secure_all_browser} alt={secure_all_browser}/>
-                                    <span>&nbsp;Secure All Browser</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {site_security_with_trusted_logo} alt={site_security_with_trusted_logo}/>
-                                    <span>&nbsp;Site Security With Trusted Logo</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {smart_ftp_setting} alt={smart_ftp_setting}/>
-                                    <span>&nbsp;Smart FTP Setting</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {ssd_storage_server} alt={ssd_storage_server}/>
-                                    <span>&nbsp;SSD Storage Server</span>
-                                </div>
-                                <div className = {'col-md-3 online_data_security_feature_margin'}>
-                                    <img src = {strong_encryption} alt={strong_encryption}/>
-                                    <span>&nbsp;Strong Encryption</span>
-                                </div>
-                            </div>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {technical_support} alt={technical_support}/></div><br/>
+                            <h6>24/7 Technical Support</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {system_update} alt={system_update}/></div><br/>
+                            <h6>99.9% System Update</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {address_bar_visibilities} alt={address_bar_visibilities}/></div><br/>
+                            <h6>Address Bar Visibilities</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {automated_backup} alt={automated_backup}/></div><br/>
+                            <h6>Automated Backup</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {block_harmful_trafic} alt={block_harmful_trafic}/></div><br/>
+                            <h6>Block Harmful Traffic</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {build_customer_trust} alt={build_customer_trust}/></div><br/>
+                            <h6>Build Customer Trust</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {clear_dashboard_option} alt={clear_dashboard_option}/></div><br/>
+                            <h6>Clear Dashboard Option</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {data_migration} alt={data_migration}/></div><br/>
+                            <h6>Data Migration</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {data_security} alt={data_security}/></div><br/>
+                            <h6>Data Security</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {easy_web_access} alt={easy_web_access}/></div><br/>
+                            <h6>Easy Web Access</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {easy_access_web_mobile} alt={easy_access_web_mobile}/></div><br/>
+                            <h6>Easy Access From Desktop & Mobile Devices</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {easy_payment_option} alt={easy_payment_option}/></div><br/>
+                            <h6>Easy Payment Option</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {easy_setting_option} alt={easy_setting_option}/></div><br/>
+                            <h6>Easy Setting Option</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {email_anty_spam_scan} alt={email_anty_spam_scan}/></div><br/>
+                            <h6>Email Anti Spam Scan</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {extend_validation} alt={extend_validation}/></div><br/>
+                            <h6>Extend Validation</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {find_fix_malware} alt={find_fix_malware}/></div><br/>
+                            <h6>Find & Fix Malware</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {guaranteded_security} alt={guaranteded_security}/></div><br/>
+                            <h6>Guaranteed Security</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {instant_push_notification} alt={instant_push_notification}/></div><br/>
+                            <h6>Instant Push Notification</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {mobile_friendly_interface} alt={mobile_friendly_interface}/></div><br/>
+                            <h6>Mobile Friendly Interface</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {network_scanning} alt={network_scanning}/></div><br/>
+                            <h6>Network Scanning</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {priniting_facilities} alt={priniting_facilities}/></div><br/>
+                            <h6>Printing Facilities</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {proven_customize} alt={proven_customize}/></div><br/>
+                            <h6>Proven Customize</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {secure_domain_sub_domain} alt={secure_domain_sub_domain}/></div><br/>
+                            <h6>Secure Domain & Sub Domain</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {secure_all_browser} alt={secure_all_browser}/></div><br/>
+                            <h6>Secure All Browser</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {site_security_with_trusted_logo} alt={site_security_with_trusted_logo}/></div><br/>
+                            <h6>Site Security With Trusted Logo</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {smart_ftp_setting} alt={smart_ftp_setting}/></div><br/>
+                            <h6>Smart FTP Setting</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {ssd_storage_server} alt={ssd_storage_server}/></div><br/>
+                            <h6>SSD Storage Server</h6>
+                        </div>
+                        <div className = {'col-md-3 online_data_security_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {strong_encryption} alt={strong_encryption}/></div><br/>
+                            <h6>Strong Encryption</h6>
                         </div>
                     </div>
                 </div>

@@ -61,92 +61,92 @@ class SalesAndDistributionSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {account_panel} alt={account_panel}/>
-                            <span>&nbsp;Account-Panel</span>
+                            <div><img className={'icon_feature'} src = {account_panel} alt={account_panel}/></div><br/>
+                            <h6>Account Panel</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {admin_profile} alt={admin_profile}/>
-                            <span>&nbsp;Admin-Profile</span>
+                            <div><img className={'icon_feature'} src = {admin_profile} alt={admin_profile}/></div><br/>
+                            <h6>Admin Profile</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {approved_sale} alt={approved_sale}/>
-                            <span>&nbsp;Approved-Sale-Panel</span>
+                            <div><img className={'icon_feature'} src = {approved_sale} alt={approved_sale}/></div><br/>
+                            <h6>Approved Sale Panel</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {cancel_sale} alt={cancel_sale}/>
-                            <span>&nbsp;Cancel-Sale-Panel</span>
+                            <div><img className={'icon_feature'} src = {cancel_sale} alt={cancel_sale}/></div><br/>
+                            <h6>Cancel Sale Panel</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {challan_panel} alt={challan_panel}/>
-                            <span>&nbsp;Challan-Panel</span>
+                            <div><img className={'icon_feature'} src = {challan_panel} alt={challan_panel}/></div><br/>
+                            <h6>Challan Panel</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {collection_create} alt={collection_create}/>
-                            <span>&nbsp;Collection-Create</span>
+                            <div><img className={'icon_feature'} src = {collection_create} alt={collection_create}/></div><br/>
+                            <h6>Collection Create</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {dealer_account} alt={dealer_account}/>
-                            <span>&nbsp;Dealer-Account</span>
+                            <div><img className={'icon_feature'} src = {dealer_account} alt={dealer_account}/></div><br/>
+                            <h6>Dealer Account</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {dealer_profile} alt={dealer_profile}/>
-                            <span>&nbsp;Dealer-Profile</span>
+                            <div><img className={'icon_feature'} src = {dealer_profile} alt={dealer_profile}/></div><br/>
+                            <h6>Dealer Profile</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {distributor_panel} alt={distributor_panel}/>
-                            <span>&nbsp;Distributor-Panel</span>
+                            <div><img className={'icon_feature'} src = {distributor_panel} alt={distributor_panel}/></div><br/>
+                            <h6>Distributor Panel</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {employee_profile} alt={employee_profile}/>
-                            <span>&nbsp;Employee-Profile</span>
+                            <div><img className={'icon_feature'} src = {employee_profile} alt={employee_profile}/></div><br/>
+                            <h6>Employee Profile</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {invoice_panel} alt={invoice_panel}/>
-                            <span>&nbsp;Invoice-Panel</span>
+                            <div><img className={'icon_feature'} src = {invoice_panel} alt={invoice_panel}/></div><br/>
+                            <h6>Invoice Panel</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {manager_panel} alt={manager_panel}/>
-                            <span>&nbsp;Manager-Panel</span>
+                            <div><img className={'icon_feature'} src = {manager_panel} alt={manager_panel}/></div><br/>
+                            <h6>Manager Panel</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {offer_setup} alt={offer_setup}/>
-                            <span>&nbsp;Offer-Setup</span>
+                            <div><img className={'icon_feature'} src = {offer_setup} alt={offer_setup}/></div><br/>
+                            <h6>Offer Setup</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {rm_panel} alt={rm_panel}/>
-                            <span>&nbsp;RM-Panel</span>
+                            <div><img className={'icon_feature'} src = {rm_panel} alt={rm_panel}/></div><br/>
+                            <h6>RM Panel</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {sales_admin_panel} alt={sales_admin_panel}/>
-                            <span>&nbsp;Sale-Admin-Panel(monitoring-rm,manager,account)</span>
+                            <div><img className={'icon_feature'} src = {sales_admin_panel} alt={sales_admin_panel}/></div><br/>
+                            <h6>Sale Admin Panel(monitoring -> rm,manager,account)</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {single_or_mulitple_product} alt={single_or_mulitple_product}/>
-                            <span>&nbsp;Single-Or-Multiple-Product-And-Its-Sub-Category</span>
+                            <div><img className={'icon_feature'} src = {single_or_mulitple_product} alt={single_or_mulitple_product}/></div><br/>
+                            <h6>Single Or Multiple Product And Its Sub Category</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {single_or_multiple_brand} alt={single_or_multiple_brand}/>
-                            <span>&nbsp;Single-Or-Multiple-Brand</span>
+                            <div><img className={'icon_feature'} src = {single_or_multiple_brand} alt={single_or_multiple_brand}/></div><br/>
+                            <h6>Single Or Multiple Brand</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {undelivery_party} alt={undelivery_party}/>
-                            <span>&nbsp;Undelivery-Party-List</span>
+                            <div><img className={'icon_feature'} src = {undelivery_party} alt={undelivery_party}/></div><br/>
+                            <h6>Undelivered Party List</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {user_create} alt={user_create}/>
-                            <span>&nbsp;User-Create</span>
+                            <div><img className={'icon_feature'} src = {user_create} alt={user_create}/></div><br/>
+                            <h6>User Create</h6>
                         </div>
                         <div className = {'col-md-3 sales_and_distribution_feature_margin'}>
-                            <img className={'icon_feature'} src = {warehouse} alt={warehouse}/>
-                            <span>&nbsp;Warehouse-Panel</span>
+                            <div><img className={'icon_feature'} src = {warehouse} alt={warehouse}/></div><br/>
+                            <h6>Warehouse Panel</h6>
                         </div>
                     </div>
                 </div>

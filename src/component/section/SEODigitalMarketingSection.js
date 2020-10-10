@@ -36,52 +36,48 @@ class SEODigitalMarketingSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className = "container">
+                <div className = "container text-center">
                     <div className = "row">
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
-                            <div className = {'row'}>
-                                <div className = {'col-md-3 seo_feature_margin'}>
-                                    <img src = {boost_creadibility} alt={boost_creadibility}/>
-                                    <span>&nbsp;Boost Credibility</span>
-                                </div>
-                                <div className = {'col-md-3 seo_feature_margin'}>
-                                    <img src = {boost_up_website_speed} alt={boost_up_website_speed}/>
-                                    <span>&nbsp;Boost Up Website Speed</span>
-                                </div>
-                                <div className = {'col-md-3 seo_feature_margin'}>
-                                    <img src = {ecommerce_product_wise_seo} alt={ecommerce_product_wise_seo}/>
-                                    <span>&nbsp;E-Commerce Product Wise SEO</span>
-                                </div>
-
-                                <div className = {'col-md-3 seo_feature_margin'}>
-                                    <img src = {improved_seo} alt={improved_seo}/>
-                                    <span>&nbsp;Improved SEO</span>
-                                </div>
-                                <div className = {'col-md-3 seo_feature_margin'}>
-                                    <img src = {monthly_support} alt={monthly_support}/>
-                                    <span>&nbsp;Monthly Support</span>
-                                </div>
-                                <div className = {'col-md-3 seo_feature_margin'}>
-                                    <img src = {spread_branding} alt={spread_branding}/>
-                                    <span>&nbsp;Spread Branding</span>
-                                </div>
-
-                                <div className = {'col-md-3 seo_feature_margin'}>
-                                    <img src = {strong_content_writing} alt={strong_content_writing}/>
-                                    <span>&nbsp;Strong Content Writing</span>
-                                </div>
-                                <div className = {'col-md-3 seo_feature_margin'}>
-                                    <img src = {support_all_browser} alt={support_all_browser}/>
-                                    <span>&nbsp;Support All Browser</span>
-                                </div>
-                                <div className = {'col-md-3 seo_feature_margin'}>
-                                    <img src = {web_analytics_performance} alt={web_analytics_performance}/>
-                                    <span>&nbsp;Web Analytics Performance</span>
-                                </div>
-                            </div>
+                        </div>
+                        <div className = {'col-md-3 seo_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {boost_creadibility} alt={boost_creadibility}/></div><br/>
+                            <h6>Boost Credibility</h6>
+                        </div>
+                        <div className = {'col-md-3 seo_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {boost_up_website_speed} alt={boost_up_website_speed}/></div><br/>
+                            <h6>Boost Up Website Speed</h6>
+                        </div>
+                        <div className = {'col-md-3 seo_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {ecommerce_product_wise_seo} alt={ecommerce_product_wise_seo}/></div><br/>
+                            <h6>E-Commerce Product Wise SEO</h6>
+                        </div>
+                        <div className = {'col-md-3 seo_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {improved_seo} alt={improved_seo}/></div><br/>
+                            <h6>Improved SEO</h6>
+                        </div>
+                        <div className = {'col-md-3 seo_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {monthly_support} alt={monthly_support}/></div><br/>
+                            <h6>Monthly Support</h6>
+                        </div>
+                        <div className = {'col-md-3 seo_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {spread_branding} alt={spread_branding}/></div><br/>
+                            <h6>Spread Branding</h6>
+                        </div>
+                        <div className = {'col-md-3 seo_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {strong_content_writing} alt={strong_content_writing}/></div><br/>
+                            <h6>Strong Content Writing</h6>
+                        </div>
+                        <div className = {'col-md-3 seo_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {support_all_browser} alt={support_all_browser}/></div><br/>
+                            <h6>Support All Browser</h6>
+                        </div>
+                        <div className = {'col-md-3 seo_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {web_analytics_performance} alt={web_analytics_performance}/></div><br/>
+                            <h6>Web Analytics Performance</h6>
                         </div>
                     </div>
                 </div>

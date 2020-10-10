@@ -37,64 +37,60 @@ class WebApplicationSection extends Component{
                 </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
-                            <div className = {'row'}>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {mobile_friendliness} alt={mobile_friendliness}/>
-                                    <span>&nbsp;Mobile-friendliness</span>
-                                </div>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {quick_loading_times} alt={quick_loading_times}/>
-                                    <span>&nbsp;Quick loading times</span>
-                                </div>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {search_engine_optimized} alt={search_engine_optimized}/>
-                                    <span>&nbsp;Search engine optimised</span>
-                                </div>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {analytics_enabled} alt={analytics_enabled}/>
-                                    <span>&nbsp;Analytics-enabled</span>
-                                </div>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {Built_for_conversion} alt={Built_for_conversion}/>
-                                    <span>&nbsp;Built for conversion</span>
-                                </div>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {Content_management_enabled} alt={Content_management_enabled}/>
-                                    <span>&nbsp;Content management enabled</span>
-                                </div>
-
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {Social_media} alt={Social_media}/>
-                                    <span>&nbsp;Social media</span>
-                                </div>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {Set_up_email_marketing} alt={Set_up_email_marketing}/>
-                                    <span>&nbsp;Set up email marketing</span>
-                                </div>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {Robust_Security} alt={Robust_Security}/>
-                                    <span>&nbsp;Robust Security</span>
-                                </div>
-
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {Progressive_Web_Apps} alt={Progressive_Web_Apps}/>
-                                    <span>&nbsp;Progressive Web Apps</span>
-                                </div>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {Quality_Web_Content} alt={Quality_Web_Content}/>
-                                    <span>&nbsp;Quality Web Content</span>
-                                </div>
-                                <div className = {'col-md-3 web_application_feature_margin'}>
-                                    <img src = {Simplicity_in_design} alt={Simplicity_in_design}/>
-                                    <span>&nbsp;Simple and Professional Web Design</span>
-                                </div>
-                            </div>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {mobile_friendliness} alt={mobile_friendliness}/></div><br/>
+                            <h6>Mobile friendliness</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {quick_loading_times} alt={quick_loading_times}/></div><br/>
+                            <h6>Quick loading times</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {search_engine_optimized} alt={search_engine_optimized}/></div><br/>
+                            <h6>Search engine optimised</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {analytics_enabled} alt={analytics_enabled}/></div><br/>
+                            <h6>Analytics enabled</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Built_for_conversion} alt={Built_for_conversion}/></div><br/>
+                            <h6>Built for conversion</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Content_management_enabled} alt={Content_management_enabled}/></div><br/>
+                            <h6>Content management enabled</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Social_media} alt={Social_media}/></div><br/>
+                            <h6>Social media</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Set_up_email_marketing} alt={Set_up_email_marketing}/></div><br/>
+                            <h6>Set up email marketing</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Robust_Security} alt={Robust_Security}/></div><br/>
+                            <h6>Robust Security</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Progressive_Web_Apps} alt={Progressive_Web_Apps}/></div><br/>
+                            <h6>Progressive Web Apps</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Quality_Web_Content} alt={Quality_Web_Content}/></div><br/>
+                            <h6>Quality Web Content</h6>
+                        </div>
+                        <div className = {'col-md-3 web_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Simplicity_in_design} alt={Simplicity_in_design}/></div><br/>
+                            <h6>Simple and Professional Web Design</h6>
                         </div>
                     </div>
                 </div>

@@ -47,80 +47,80 @@ class HRAndPayrollSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {announcement} alt={announcement}/>
-                            <span>&nbsp;Announcement-Management</span>
+                            <div><img className={'icon_feature'} src = {announcement} alt={announcement}/></div><br/>
+                            <h6>Announcement Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {appraisal} alt={appraisal}/>
-                            <span>&nbsp;Appraisal-&-Talent-Management</span>
+                            <div><img className={'icon_feature'} src = {appraisal} alt={appraisal}/></div><br/>
+                            <h6>Appraisal & Talent Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {benefits} alt={benefits}/>
-                            <span>&nbsp;Benefits-Management</span>
+                            <div><img className={'icon_feature'} src = {benefits} alt={benefits}/></div><br/>
+                            <h6>Benefits Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {bonus} alt={bonus}/>
-                            <span>&nbsp;Bonus-Management</span>
+                            <div><img className={'icon_feature'} src = {bonus} alt={bonus}/></div><br/>
+                            <h6>Bonus Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {employee_information} alt={employee_information}/>
-                            <span>&nbsp;Employee-Information-Management</span>
+                            <div><img className={'icon_feature'} src = {employee_information} alt={employee_information}/></div><br/>
+                            <h6>Employee Information Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {financial} alt={financial}/>
-                            <span>&nbsp;Financial-&-Accounting-Management</span>
+                            <div><img className={'icon_feature'} src = {financial} alt={financial}/></div><br/>
+                            <h6>Financial & Accounting Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {internal} alt={internal}/>
-                            <span>&nbsp;Internal-Messaging-System</span>
+                            <div><img className={'icon_feature'} src = {internal} alt={internal}/></div><br/>
+                            <h6>Internal Messaging System</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {learning} alt={learning}/>
-                            <span>&nbsp;Learning-and-Professional-Development</span>
+                            <div><img className={'icon_feature'} src = {learning} alt={learning}/></div><br/>
+                            <h6>Learning & Professional Development</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {leave_management} alt={leave_management}/>
-                            <span>&nbsp;Leave-Management</span>
+                            <div><img className={'icon_feature'} src = {leave_management} alt={leave_management}/></div><br/>
+                            <h6>Leave Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {loan_management} alt={loan_management}/>
-                            <span>&nbsp;Loan-Management</span>
+                            <div><img className={'icon_feature'} src = {loan_management} alt={loan_management}/></div><br/>
+                            <h6>Loan Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {payroll} alt={payroll}/>
-                            <span>&nbsp;Payroll-Management</span>
+                            <div><img className={'icon_feature'} src = {payroll} alt={payroll}/></div><br/>
+                            <h6>Payroll Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {provident} alt={provident}/>
-                            <span>&nbsp;Provident-Fund-&-Gratuity-Management</span>
+                            <div><img className={'icon_feature'} src = {provident} alt={provident}/></div><br/>
+                            <h6>Provident Fund & Gratuity Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {recruitment} alt={recruitment}/>
-                            <span>&nbsp;Recruitment-&-Hiring</span>
+                            <div><img className={'icon_feature'} src = {recruitment} alt={recruitment}/></div><br/>
+                            <h6>Recruitment & Hiring</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {role} alt={role}/>
-                            <span>&nbsp;Role Management</span>
+                            <div><img className={'icon_feature'} src = {role} alt={role}/></div><br/>
+                            <h6>Role Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {task} alt={task}/>
-                            <span>&nbsp;Task-Management</span>
+                            <div><img className={'icon_feature'} src = {task} alt={task}/></div><br/>
+                            <h6>Task Management</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {third} alt={third}/>
-                            <span>&nbsp;Third-Party-integrations</span>
+                            <div><img className={'icon_feature'} src = {third} alt={third}/></div><br/>
+                            <h6>Third Party integrations</h6>
                         </div>
                         <div className = {'col-md-3 hr_and_payroll_feature_margin'}>
-                            <img className={'icon_feature'} src = {time} alt={time}/>
-                            <span>&nbsp;Time-(Attendance-&-Overtime)-Management</span>
+                            <div><img className={'icon_feature'} src = {time} alt={time}/></div><br/>
+                            <h6>Time(Attendance & Overtime)Management</h6>
                         </div>
                     </div>
                 </div>

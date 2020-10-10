@@ -14,6 +14,7 @@ import Clients from '../section/Clients';
 import Portfolio from '../section/Portfolio';
 import Testimonial from '../section/Testimonial';
 import Contact from '../section/Contact';
+import Messenger from '../include/Messenger';
 import Footer from '../include/Footer';
 
 import jQuery from "jquery";
@@ -102,6 +103,7 @@ class Dashboard extends Component{
                 <br/><br/>
                 <Testimonial/>
                 <Contact/>
+                <Messenger/>
                 <Footer/>
             </div>
         )

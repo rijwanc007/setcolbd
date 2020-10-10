@@ -40,72 +40,68 @@ class GraphicsSolutionSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className = "container">
+                <div className = "container text-center">
                     <div className = "row">
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
-                            <div className = {'row'}>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {animation_3d} alt={animation_3d}/>
-                                    <span>&nbsp;Animation 3D</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {background_remove_and_retouch} alt={background_remove_and_retouch}/>
-                                    <span>&nbsp;Background Remove & Retouch</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {digital_advertise} alt={digital_advertise}/>
-                                    <span>&nbsp;Digital Advertise</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {gamming_character_design} alt={gamming_character_design}/>
-                                    <span>&nbsp;Gaming Character Design</span>
-                                </div>
-
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {image_manipulation} alt={image_manipulation}/>
-                                    <span>&nbsp;Image Manipulation</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {image_trace_or_vectorize} alt={image_trace_or_vectorize}/>
-                                    <span>&nbsp;Image Trace Or Vectorized</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {logo_design} alt={logo_design}/>
-                                    <span>&nbsp;Logo Design</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {mockup_design} alt={mockup_design}/>
-                                    <span>&nbsp;Mock Up Design</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {motion_grapics} alt={motion_grapics}/>
-                                    <span>&nbsp;Motion Graphics</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {product_design_e_commerce} alt={product_design_e_commerce}/>
-                                    <span>&nbsp;Product Design For E-Commerce</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {social_media_design} alt={social_media_design}/>
-                                    <span>&nbsp;Social Media Design</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {ui_ux_design} alt={ui_ux_design}/>
-                                    <span>&nbsp;UI-UX Design</span>
-                                </div>
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {website_and_apps_mockup_design} alt={website_and_apps_mockup_design}/>
-                                    <span>&nbsp;Website & Apps Mock Up Design</span>
-                                </div>
-
-                                <div className = {'col-md-3 graphics_solution_feature_margin'}>
-                                    <img src = {white_board_animation} alt={white_board_animation}/>
-                                    <span>&nbsp;White Board Animation</span>
-                                </div>
-                            </div>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {animation_3d} alt={animation_3d}/></div><br/>
+                            <h6>Animation 3D</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {background_remove_and_retouch} alt={background_remove_and_retouch}/></div><br/>
+                            <h6>Background Remove & Retouch</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {digital_advertise} alt={digital_advertise}/></div><br/>
+                            <h6>Digital Advertise</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {gamming_character_design} alt={gamming_character_design}/></div><br/>
+                            <h6>Gaming Character Design</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {image_manipulation} alt={image_manipulation}/></div><br/>
+                            <h6>Image Manipulation</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {image_trace_or_vectorize} alt={image_trace_or_vectorize}/></div><br/>
+                            <h6>Image Trace Or Vectorized</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {logo_design} alt={logo_design}/></div><br/>
+                            <h6>Logo Design</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {mockup_design} alt={mockup_design}/></div><br/>
+                            <h6>Mock Up Design</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {motion_grapics} alt={motion_grapics}/></div><br/>
+                            <h6>Motion Graphics</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {product_design_e_commerce} alt={product_design_e_commerce}/></div><br/>
+                            <h6>Product Design For E-Commerce</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {social_media_design} alt={social_media_design}/></div><br/>
+                            <h6>Social Media Design</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {ui_ux_design} alt={ui_ux_design}/></div><br/>
+                            <h6>UI-UX Design</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {website_and_apps_mockup_design} alt={website_and_apps_mockup_design}/></div><br/>
+                            <h6>Website & Apps Mock Up Design</h6>
+                        </div>
+                        <div className = {'col-md-3 graphics_solution_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {white_board_animation} alt={white_board_animation}/></div><br/>
+                            <h6>White Board Animation</h6>
                         </div>
                     </div>
                 </div>

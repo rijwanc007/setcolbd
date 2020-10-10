@@ -45,75 +45,72 @@ class ECommerceSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
-                            <div className = {'row'}>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {Content_management_enabled} alt={Content_management_enabled}/>
-                                    <span>&nbsp;Content management capabilities</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {Promotion_and_discount_code_tools} alt={Promotion_and_discount_code_tools}/>
-                                    <span>&nbsp;Promotion and discount code tools</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {easy_way_to_check_out} alt={easy_way_to_check_out}/>
-                                    <span>&nbsp;An easy-to-use checkout</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {search_engine_optimized} alt={search_engine_optimized}/>
-                                    <span>&nbsp;Search engine optimized code and layout</span>
-                                </div>
-
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {Reporting_tools} alt={Reporting_tools}/>
-                                    <span>&nbsp;Reporting tools</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {An_integrated_blog_or_articles_section} alt={An_integrated_blog_or_articles_section}/>
-                                    <span>&nbsp;An integrated blog or articles section</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {Email_marketing_integration} alt={Email_marketing_integration}/>
-                                    <span>&nbsp;Email marketing integration</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {Multiple_payment_options} alt={Multiple_payment_options}/>
-                                    <span>&nbsp;Multiple payment options</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {Cross_platform_coverage} alt={Cross_platform_coverage}/>
-                                    <span>&nbsp;The ability to scale up with your platform</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {Ease_of_Use} alt={Ease_of_Use}/>
-                                    <span>&nbsp;Ease of Use</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {High_Resolution_Photos_and_Video} alt={High_Resolution_Photos_and_Video}/>
-                                    <span>&nbsp;High-Resolution Photos and Video</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {Mobile_Friendly_Website} alt={Mobile_Friendly_Website}/>
-                                    <span>&nbsp;Mobile-Friendly Website</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {User_Generated_Reviews} alt={User_Generated_Reviews}/>
-                                    <span>&nbsp;User-Generated Reviews</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {special_offer} alt={special_offer}/>
-                                    <span>&nbsp;Special Offers</span>
-                                </div>
-                                <div className = {'col-md-3 e_commerce_feature_margin'}>
-                                    <img src = {Wish_Lists} alt={Wish_Lists}/>
-                                    <span>&nbsp;Wish Lists</span>
-                                </div>
-                            </div>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Content_management_enabled} alt={Content_management_enabled}/></div><br/>
+                            <h6>Content management capabilities</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Promotion_and_discount_code_tools} alt={Promotion_and_discount_code_tools}/></div><br/>
+                            <h6>Promotion and discount code tools</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {easy_way_to_check_out} alt={easy_way_to_check_out}/></div><br/>
+                            <h6>An easy to use checkout</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {search_engine_optimized} alt={search_engine_optimized}/></div><br/>
+                            <h6>Search engine optimized code and layout</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Reporting_tools} alt={Reporting_tools}/></div><br/>
+                            <h6>Reporting tools</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {An_integrated_blog_or_articles_section} alt={An_integrated_blog_or_articles_section}/></div><br/>
+                            <h6>An integrated blog or articles section</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Email_marketing_integration} alt={Email_marketing_integration}/></div><br/>
+                            <h6>Email marketing integration</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Multiple_payment_options} alt={Multiple_payment_options}/></div><br/>
+                            <h6>Multiple payment options</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Cross_platform_coverage} alt={Cross_platform_coverage}/></div><br/>
+                            <h6>The ability to scale up with your platform</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Ease_of_Use} alt={Ease_of_Use}/></div><br/>
+                            <h6>Ease of Use</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {High_Resolution_Photos_and_Video} alt={High_Resolution_Photos_and_Video}/></div><br/>
+                            <h6>High Resolution Photos and Video</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Mobile_Friendly_Website} alt={Mobile_Friendly_Website}/></div><br/>
+                            <h6>Mobile Friendly Website</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {User_Generated_Reviews} alt={User_Generated_Reviews}/></div><br/>
+                            <h6>User Generated Reviews</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {special_offer} alt={special_offer}/></div><br/>
+                            <h6>Special Offers</h6>
+                        </div>
+                        <div className = {'col-md-3 e_commerce_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Wish_Lists} alt={Wish_Lists}/></div><br/>
+                            <h6>Wish Lists</h6>
                         </div>
                     </div>
                 </div>

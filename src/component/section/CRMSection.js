@@ -45,64 +45,64 @@ class CRMSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {chat_integration} alt={chat_integration}/>
-                            <span>&nbsp;Chat-Integration</span>
+                            <div><img className={'icon_feature'} src = {chat_integration} alt={chat_integration}/></div><br/>
+                            <h6>Chat Integration</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {customer_management} alt={customer_management}/>
-                            <span>&nbsp;Customer-Management</span>
+                            <div><img className={'icon_feature'} src = {customer_management} alt={customer_management}/></div><br/>
+                            <h6>Customer Management</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {customize_option} alt={customize_option}/>
-                            <span>&nbsp;Customization-Options</span>
+                            <div><img className={'icon_feature'} src = {customize_option} alt={customize_option}/></div><br/>
+                            <h6>Customization Options</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {email_marketing} alt={email_marketing}/>
-                            <span>&nbsp;Email-Marketing-Integration</span>
+                            <div><img className={'icon_feature'} src = {email_marketing} alt={email_marketing}/></div><br/>
+                            <h6>Email Marketing Integration</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {lead_management} alt={lead_management}/>
-                            <span>&nbsp;Lead-Management</span>
+                            <div><img className={'icon_feature'} src = {lead_management} alt={lead_management}/></div><br/>
+                            <h6>Lead Management</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {project_management} alt={project_management}/>
-                            <span>&nbsp;Project-Management</span>
+                            <div><img className={'icon_feature'} src = {project_management} alt={project_management}/></div><br/>
+                            <h6>Project Management</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {reports} alt={reports}/>
-                            <span>&nbsp;Reports</span>
+                            <div><img className={'icon_feature'} src = {reports} alt={reports}/></div><br/>
+                            <h6>Reports</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {role_based_view} alt={role_based_view}/>
-                            <span>&nbsp;Role-Based-Views</span>
+                            <div><img className={'icon_feature'} src = {role_based_view} alt={role_based_view}/></div><br/>
+                            <h6>Role Based Views</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {sales_management} alt={sales_management}/>
-                            <span>&nbsp;Sales-management</span>
+                            <div><img className={'icon_feature'} src = {sales_management} alt={sales_management}/></div><br/>
+                            <h6>Sales Management</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {social_management} alt={social_management}/>
-                            <span>&nbsp;Social-Media-Management-Integration</span>
+                            <div><img className={'icon_feature'} src = {social_management} alt={social_management}/></div><br/>
+                            <h6>Social Media Management Integration</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {staff_management} alt={staff_management}/>
-                            <span>&nbsp;Staff-Management</span>
+                            <div><img className={'icon_feature'} src = {staff_management} alt={staff_management}/></div><br/>
+                            <h6>Staff Management</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {support_system} alt={support_system}/>
-                            <span>&nbsp;Support-System-(ticket)</span>
+                            <div><img className={'icon_feature'} src = {support_system} alt={support_system}/></div><br/>
+                            <h6>Support System(ticket)</h6>
                         </div>
                         <div className = {'col-md-3 crm_feature_margin'}>
-                            <img className={'icon_feature'} src = {task_management} alt={task_management}/>
-                            <span>&nbsp;Task-Management</span>
+                            <div><img className={'icon_feature'} src = {task_management} alt={task_management}/></div><br/>
+                            <h6>Task Management</h6>
                         </div>
                     </div>
                 </div>

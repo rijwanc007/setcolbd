@@ -39,76 +39,73 @@ class MobileApplicationSection extends Component{
                                 </p>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <br/>
-                <div className = "container">
+                <div className = "container text-center">
                     <div className = "row">
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
-                            <div className = {'row'}>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Simplicity_in_design} alt={Simplicity_in_design}/>
-                                    <span>&nbsp;Simplicity in design</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Compliance_with_GDPR_standards} alt={Compliance_with_GDPR_standards}/>
-                                    <span>&nbsp;Compliance with GDPR standards</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Ongoing_evolution} alt={Ongoing_evolution}/>
-                                    <span>&nbsp;Ongoing evolution</span>
-                                </div>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Simplicity_in_design} alt={Simplicity_in_design}/></div><br/>
+                            <h6>Simplicity in design</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Compliance_with_GDPR_standards} alt={Compliance_with_GDPR_standards}/></div><br/>
+                            <h6>Compliance with GDPR standards</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Ongoing_evolution} alt={Ongoing_evolution}/></div><br/>
+                            <h6>Ongoing evolution</h6>
+                        </div>
 
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Less_Keyboarding_and_More_Touch} alt={Less_Keyboarding_and_More_Touch}/>
-                                    <span>&nbsp;Less Keyboarding and More Touch</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Applied_Data_Science} alt={Applied_Data_Science}/>
-                                    <span>&nbsp;Applied Data Science & Machine Learning</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Integration_of_Augmented_Reality} alt={Integration_of_Augmented_Reality}/>
-                                    <span>&nbsp;Integration of Augmented Reality</span>
-                                </div>
-
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Cross_platform_coverage} alt={Cross_platform_coverage}/>
-                                    <span>&nbsp;Cross-platform coverage</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Performance_is_the_key} alt={Performance_is_the_key}/>
-                                    <span>&nbsp;Performance is the key</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Robust_Security} alt={Robust_Security}/>
-                                    <span>&nbsp;Robust Security</span>
-                                </div>
-
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Integration_with_bigger_ecosystems} alt={Integration_with_bigger_ecosystems}/>
-                                    <span>&nbsp;Integration with bigger ecosystems</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Interoperability_with_modern_connectivity_standard} alt={Interoperability_with_modern_connectivity_standard}/>
-                                    <span>&nbsp;Interoperability with modern connectivity standard</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Focus_on_business_driven_solutions} alt={Focus_on_business_driven_solutions}/>
-                                    <span>&nbsp;Focus on business-driven solutions</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {Social_Networking_Capabilities} alt={Social_Networking_Capabilities}/>
-                                    <span>&nbsp;Social Networking Capabilities</span>
-                                </div>
-                                <div className = {'col-md-3 mobile_application_feature_margin'}>
-                                    <img src = {The_Ability_to_Work_Offline} alt={The_Ability_to_Work_Offline}/>
-                                    <span>&nbsp;The Ability to Work Offline</span>
-                                </div>
-                            </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Less_Keyboarding_and_More_Touch} alt={Less_Keyboarding_and_More_Touch}/></div><br/>
+                            <h6>Less Keyboarding and More Touch</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Applied_Data_Science} alt={Applied_Data_Science}/></div><br/>
+                            <h6>Applied Data Science & Machine Learning</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Integration_of_Augmented_Reality} alt={Integration_of_Augmented_Reality}/></div><br/>
+                            <h6>Integration of Augmented Reality</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Cross_platform_coverage} alt={Cross_platform_coverage}/></div><br/>
+                            <h6>Cross-platform coverage</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Performance_is_the_key} alt={Performance_is_the_key}/></div><br/>
+                            <h6>Performance is the key</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Robust_Security} alt={Robust_Security}/></div><br/>
+                            <h6>Robust Security</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Integration_with_bigger_ecosystems} alt={Integration_with_bigger_ecosystems}/></div><br/>
+                            <h6>Integration with bigger ecosystems</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Interoperability_with_modern_connectivity_standard} alt={Interoperability_with_modern_connectivity_standard}/></div><br/>
+                            <h6>Interoperability with modern connectivity standard</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Focus_on_business_driven_solutions} alt={Focus_on_business_driven_solutions}/></div><br/>
+                            <h6>Focus on business-driven solutions</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {Social_Networking_Capabilities} alt={Social_Networking_Capabilities}/></div><br/>
+                            <h6>Social Networking Capabilities</h6>
+                        </div>
+                        <div className = {'col-md-3 mobile_application_feature_margin'}>
+                            <div><img className={'icon_feature'} src = {The_Ability_to_Work_Offline} alt={The_Ability_to_Work_Offline}/></div><br/>
+                            <h6>The Ability to Work Offline</h6>
                         </div>
                     </div>
                 </div>

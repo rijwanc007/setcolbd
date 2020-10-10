@@ -41,32 +41,32 @@ class VirtualClassroomSection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
                         </div>
                         <div className = {'col-md-3 virtual_class_feature_design'}>
-                            <img className={'icon_feature'} src = {affordable} alt={affordable}/>
-                            <span>&nbsp;Affordable-and-Scalable</span>
+                            <div><img className={'icon_feature'} src = {affordable} alt={affordable}/></div><br/>
+                            <h6>Affordable & Scalable</h6>
                         </div>
                         <div className = {'col-md-3 virtual_class_feature_design'}>
-                            <img className={'icon_feature'} src = {easy} alt={easy}/>
-                            <span>&nbsp;Easy-to-Deliver-Online-Courses</span>
+                            <div><img className={'icon_feature'} src = {easy} alt={easy}/></div><br/>
+                            <h6>Easy to Deliver Online Courses</h6>
                         </div>
                         <div className = {'col-md-3 virtual_class_feature_design'}>
-                            <img className={'icon_feature'} src = {effective} alt={effective}/>
-                            <span>&nbsp;Effective-to-Keep-Your-Students'-Minds-Synced</span>
+                            <div><img className={'icon_feature'} src = {effective} alt={effective}/></div><br/>
+                            <h6>Effective to Keep Your Student's Minds Synced</h6>
                         </div>
                         <div className = {'col-md-3 virtual_class_feature_design'}>
-                            <img className={'icon_feature'} src = {flexible} alt={flexible}/>
-                            <span>&nbsp;Flexible-to-Make-Your-Own-Virtual-Classroom</span>
+                            <div><img className={'icon_feature'} src = {flexible} alt={flexible}/></div><br/>
+                            <h6>Flexible to Make You Own Virtual Classroom</h6>
                         </div>
                         <div className = {'col-md-3 virtual_class_feature_design'}>
-                            <img className={'icon_feature'} src = {possible} alt={possible}/>
-                            <span>&nbsp;Possible-to-Achieve-Further-Improvement</span>
+                            <div><img className={'icon_feature'} src = {possible} alt={possible}/></div><br/>
+                            <h6>Possible to Achieve Further Improvement</h6>
                         </div>
                     </div>
                 </div>

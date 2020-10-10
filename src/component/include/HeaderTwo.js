@@ -20,7 +20,7 @@ class HeaderTwo extends Component{
                                             <Nav style={{marginLeft:'7%'}}>
                                                 <Link to="/" className="logo_icon">Home</Link>
                                                 <NavDropdown title="Services" className={'drop_down_nav_bar'} id="basic-nav-dropdown">
-                                                    <NavDropdown.Item><Link to="/web_application" className={'drop_down_item_color'}>Web Application</Link></NavDropdown.Item>
+                                                    <NavDropdown.Item ><Link to="/web_application" className={'drop_down_item_color'}>Web Application</Link></NavDropdown.Item>
                                                     <NavDropdown.Item><Link to="/mobile_application" className={'drop_down_item_color'}>Mobile Application</Link></NavDropdown.Item>
                                                     <NavDropdown.Item><Link to="/qa_&_testing" className={'drop_down_item_color'}>QA & Testing</Link></NavDropdown.Item>
                                                     <NavDropdown.Divider />

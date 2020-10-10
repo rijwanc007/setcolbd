@@ -44,52 +44,52 @@ class InventorySection extends Component{
                     </div>
                 </div>
                 <br/>
-                <div className={'container'}>
+                <div className={'container text-center'}>
                     <div className={'row'}>
                         <div className = "col-md-12 col-sm-12 col-xl-12">
-                            <div className="section-headline text-center">
+                            <div className="section-headline">
                                 <h2>Feature <span className="text-info">'s</span></h2>
                             </div>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {advance_payment} alt={advance_payment}/>
-                            <span>&nbsp;Advance-Payment-Scheduling</span>
+                            <div><img className={'icon_feature'} src = {advance_payment} alt={advance_payment}/></div><br/>
+                            <h6>Advance Payment Scheduling</h6>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {barcode} alt={barcode}/>
-                            <span>&nbsp;Barcoding-&-Tagging</span>
+                            <div><img className={'icon_feature'} src = {barcode} alt={barcode}/></div><br/>
+                            <h6>Barcoding & Tagging</h6>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {cloud_based} alt={cloud_based}/>
-                            <span>&nbsp;Cloud-Based-Software-with-Real-Time-Updates</span>
+                            <div><img className={'icon_feature'} src = {cloud_based} alt={cloud_based}/></div><br/>
+                            <h6>Cloud Based Software With Real Time Updates</h6>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {inventory_app} alt={inventory_app}/>
-                            <span>&nbsp;Inventory-App-Integration-with-Other-Systems</span>
+                            <div><img className={'icon_feature'} src = {inventory_app} alt={inventory_app}/></div><br/>
+                            <h6>Inventory App Integration With Other Systems</h6>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {inventory_forcasting} alt={inventory_forcasting}/>
-                            <span>&nbsp;Inventory-Forecasting</span>
+                            <div><img className={'icon_feature'} src = {inventory_forcasting} alt={inventory_forcasting}/></div><br/>
+                            <h6>Inventory Forecasting</h6>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {inventory_management} alt={inventory_management}/>
-                            <span>&nbsp;Inventory-Management</span>
+                            <div><img className={'icon_feature'} src = {inventory_management} alt={inventory_management}/></div><br/>
+                            <h6>Inventory Management</h6>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {inventory_security} alt={inventory_security}/>
-                            <span>&nbsp;Inventory-Security-and-Backups</span>
+                            <div><img className={'icon_feature'} src = {inventory_security} alt={inventory_security}/></div><br/>
+                            <h6>Inventory Security & Backups</h6>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {inventory_tracking} alt={inventory_tracking}/>
-                            <span>&nbsp;Inventory-Tracking</span>
+                            <div><img className={'icon_feature'} src = {inventory_tracking} alt={inventory_tracking}/></div><br/>
+                            <h6>Inventory Tracking</h6>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {iot} alt={iot}/>
-                            <span>&nbsp;IoT-Integration</span>
+                            <div><img className={'icon_feature'} src = {iot} alt={iot}/></div><br/>
+                            <h6>IoT Integration</h6>
                         </div>
                         <div className = {'col-md-3 inventory_feature_margin'}>
-                            <img className={'icon_feature'} src = {reporting} alt={reporting}/>
-                            <span>&nbsp;Reporting-Tools</span>
+                            <div><img className={'icon_feature'} src = {reporting} alt={reporting}/></div><br/>
+                            <h6>Reporting Tools</h6>
                         </div>
                     </div>
                 </div>

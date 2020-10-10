@@ -114,12 +114,15 @@
   .search-option input {
     width: 67%;
   }
+  .knob{
+    margin-top: -143px !important;
+    margin-left: -27px !important;
+  }
 }
 
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
-
   .header-area {
     height: 60px !important;
     background: #000;
