@@ -7,9 +7,8 @@ class Messenger extends Component{
         return(
             <div>
                 <MessengerCustomerChat
-                    pageId="<PAGE_ID>"
-                    appId="<APP_ID>"
-                    htmlRef="<REF_STRING>"
+                    pageId="126194931398741"
+                    appId="277244106989242"
                 />,
             </div>
         )

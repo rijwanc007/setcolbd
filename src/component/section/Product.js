@@ -30,7 +30,7 @@ class Product extends Component{
                                 <div className="about-move">
                                     <div className="services-details">
                                         <div className="single-services">
-                                            <a className="services-icon" href="#">
+                                            <a className="services-icon" href={null}>
                                                <img src={erp} alt={erp}/>
                                             </a>
                                             <h4>ERP</h4>
@@ -45,7 +45,7 @@ class Product extends Component{
                                 <div className="about-move">
                                     <div className="services-details">
                                         <div className="single-services">
-                                            <a className="services-icon" href="#">
+                                            <a className="services-icon" href={null}>
                                                 <img src={accounts} alt={accounts}/>
                                             </a>
                                             <h4>Accounts</h4>
@@ -60,7 +60,7 @@ class Product extends Component{
                                 <div className=" about-move">
                                     <div className="services-details">
                                         <div className="single-services">
-                                            <a className="services-icon" href="#">
+                                            <a className="services-icon" href={null}>
                                                <img src={inventory} alt={inventory}/>
                                             </a>
                                             <h4>Inventory</h4>
@@ -75,7 +75,7 @@ class Product extends Component{
                                 <div className=" about-move">
                                     <div className="services-details">
                                         <div className="single-services">
-                                            <a className="services-icon" href="#">
+                                            <a className="services-icon" href={null}>
                                                <img src={sales_distribution} alt={sales_distribution}/>
                                             </a>
                                             <h4>Sales & Distribution</h4>
@@ -90,7 +90,7 @@ class Product extends Component{
                                 <div className="about-move">
                                     <div className="services-details">
                                         <div className="single-services">
-                                            <a className="services-icon" href="#">
+                                            <a className="services-icon" href={null}>
                                                 <img src={crm} alt={crm}/>
                                             </a>
                                             <h4>CRM</h4>
@@ -105,7 +105,7 @@ class Product extends Component{
                                 <div className="about-move">
                                     <div className="services-details">
                                         <div className="single-services">
-                                            <a className="services-icon" href="#">
+                                            <a className="services-icon" href={null}>
                                                 <img src={hr} alt={hr}/>
                                             </a>
                                             <h4>HR & Payroll</h4>
@@ -120,7 +120,7 @@ class Product extends Component{
                                 <div className=" about-move">
                                     <div className="services-details">
                                         <div className="single-services">
-                                            <a className="services-icon" href="#">
+                                            <a className="services-icon" href={null}>
                                                 <img src={ecommerce} alt={ecommerce}/>
                                             </a>
                                             <h4>E-Commerce</h4>
@@ -135,7 +135,7 @@ class Product extends Component{
                                 <div className=" about-move">
                                     <div className="services-details">
                                         <div className="single-services">
-                                            <a className="services-icon" href="#">
+                                            <a className="services-icon" href={null}>
                                                 <img src={ticket} alt={ticket}/>
                                             </a>
                                             <h4>Booking & Reservation</h4>
@@ -150,7 +150,7 @@ class Product extends Component{
                                 <div className=" about-move">
                                     <div className="services-details">
                                         <div className="single-services">
-                                            <a className="services-icon" href="#">
+                                            <a className="services-icon" href={null}>
                                                <img src={virtual_class} alt={virtual_class}/>
                                             </a>
                                             <h4>Virtual Classroom</h4>

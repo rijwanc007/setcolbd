@@ -54,5 +54,4 @@ class Portfolio extends Component{
     }
 }
 
-
 export default Portfolio;

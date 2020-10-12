@@ -1,6 +1,39 @@
 import React,{Component} from 'react';
+import '../../assets/lib/knob/jquery.knob.js';
 
 class Skill extends Component{
+    componentDidMount() {
+        if (typeof($.fn.knob) !== 'undefined') {
+            var knob_tex = $('.knob');
+            knob_tex.each(function() {
+                var $this = $(this),
+                    knobVal = $this.attr('data-rel');
+
+                $this.knob({
+                    'draw': function() {
+                        $(this.i).val(this.cv + '%')
+                    }
+                });
+
+                $this.appear(function() {
+                    $({
+                        value: 0
+                    }).animate({
+                        value: knobVal
+                    }, {
+                        duration: 2000,
+                        easing: 'swing',
+                        step: function() {
+                            $this.val(Math.ceil(this.value)).trigger('change');
+                        }
+                    });
+                }, {
+                    accX: 0,
+                    accY: -150
+                });
+            });
+        }
+    }
     render(){
         return(
             <div>

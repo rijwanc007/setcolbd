@@ -78,14 +78,14 @@ class Footer extends Component{
                                         <div className="footer-head">
                                             <h4>We Accept</h4>
                                             <div className="flicker-img">
-                                                <a href="#"><img src={paypal} alt="paypal"/></a>
-                                                <a href="#"><img src={prime_bank} alt="prime_bank"/></a>
-                                                <a href="#"><img src={dbbl} alt="dbbl"/></a>
-                                                <a href="#"><img src={city_bank} alt="city_bank"/></a>
-                                                <a href="#"><img src={nagad} alt="nagad"/></a>
-                                                <a href="#"><img src={rocket} alt="rocket"/></a>
-                                                <a href="#"><img src={bkash} alt="bkash"/></a>
-                                                <a href="#"><img src={payoneer} alt="payoneer"/></a>
+                                                <a href={null}><img src={paypal} alt="paypal"/></a>
+                                                <a href={null}><img src={prime_bank} alt="prime_bank"/></a>
+                                                <a href={null}><img src={dbbl} alt="dbbl"/></a>
+                                                <a href={null}><img src={city_bank} alt="city_bank"/></a>
+                                                <a href={null}><img src={nagad} alt="nagad"/></a>
+                                                <a href={null}><img src={rocket} alt="rocket"/></a>
+                                                <a href={null}><img src={bkash} alt="bkash"/></a>
+                                                <a href={null}><img src={payoneer} alt="payoneer"/></a>
                                             </div>
                                         </div>
                                     </div>

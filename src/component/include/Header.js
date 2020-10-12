@@ -5,6 +5,18 @@ import logo from '../../assets/img/logo/setcolbd.png'
 import {Link} from "react-router-dom";
 
 class Header extends Component{
+    componentDidMount() {
+        var s = $("#sticker");
+        var pos = s.position();
+        $(window).on('scroll', function() {
+            var windowpos = $(window).scrollTop() > 300;
+            if (windowpos > pos.top) {
+                s.addClass("stick");
+            } else {
+                s.removeClass("stick");
+            }
+        });
+    }
     render(){
         return (
             <div>

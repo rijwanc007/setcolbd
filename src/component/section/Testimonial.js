@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import '../../assets/css/review.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import mizanur_rahman from '../../assets/img/clients_pic/mizanur-rahman.png';
@@ -7,7 +8,6 @@ import sattar from '../../assets/img/clients_pic/sattar.png';
 import vmc from '../../assets/img/clients_pic/vmc.png';
 
 class Testimonial extends Component{
-
        render(){
            const responsive = {
                desktop: {

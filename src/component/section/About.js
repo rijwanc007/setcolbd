@@ -19,7 +19,7 @@ class About extends Component{
                             <div className="col-md-6 col-sm-6 col-xs-12" style={{backgroundColor:"white"}}>
                                 <div className="well-left">
                                     <div className="single-well">
-                                        <a href="#">
+                                        <a href={null}>
                                             <img src={about_img} alt="about_us"/>
                                         </a>
                                     </div>

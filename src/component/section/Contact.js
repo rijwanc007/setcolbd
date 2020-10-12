@@ -54,7 +54,7 @@ class Contact extends Component{
                             </div>
                             <div className="row">
                                 <div className="col-md-6 col-sm-6 col-xs-12">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.439060616321!2d90.40943111545187!3d23.7317175954056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9aaa7fb50d1%3A0x7a3104cb73a7058c!2sSkies%20Engineering%20%26%20Technologies%20Company!5e0!3m2!1sen!2sbd!4v1588177429236!5m2!1sen!2sbd"  style={{border:"none"}}  height="435" width="100%"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.439060616321!2d90.40943111545187!3d23.7317175954056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9aaa7fb50d1%3A0x7a3104cb73a7058c!2sSkies%20Engineering%20%26%20Technologies%20Company!5e0!3m2!1sen!2sbd!4v1588177429236!5m2!1sen!2sbd"  style={{border:"none"}}  height="435" width="100%" title="google location"></iframe>
                                 </div>
                                 <div className="col-md-6 col-sm-6 col-xs-12">
                                     <form>
