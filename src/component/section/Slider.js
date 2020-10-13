@@ -7,7 +7,7 @@ import slider_two from '../../assets/img/slider/e-commerce.jpg';
 import slider_three from '../../assets/img/slider/website-design-and-development-page.jpg';
 import slider_four from '../../assets/img/slider/graphic-design.jpg';
 import slider_five from '../../assets/img/slider/Mobile-apps.jpg';
-
+import $ from "jquery";
 class Slider extends Component{
     componentDidMount() {
         $('#ensign-nivoslider').nivoSlider({

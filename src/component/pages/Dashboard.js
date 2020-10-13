@@ -1,6 +1,4 @@
 import React,{Component} from 'react';
-
-
 import Header from '../include/Header';
 import Slider from '../section/Slider';
 import About from '../section/About';

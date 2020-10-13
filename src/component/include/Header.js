@@ -2,8 +2,9 @@ import React,{Component} from 'react';
 import { Navbar,Image,Nav } from 'react-bootstrap'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import logo from '../../assets/img/logo/setcolbd.png'
+import phone from '../../assets/img/icon/phone.png'
 import {Link} from "react-router-dom";
-
+import $ from "jquery";
 class Header extends Component{
     componentDidMount() {
         var s = $("#sticker");
@@ -37,10 +38,10 @@ class Header extends Component{
                                                 <AnchorLink offset='100' href="#contact" className="logo_icon">Contact</AnchorLink>
                                                 <Link to="/career" className={'logo_icon'}>Career</Link>
                                             </Nav>
-                                            <div style={{marginLeft:'7%',color:'#2BACE2'}}>
-                                                <span><i className="fa fa-phone"></i> : +88-0255112226</span>
+                                            <div style={{marginLeft:'6%',color:'#2BACE2'}}>
+                                                <span><img src={phone} alt={phone}/> : +88-0255112226</span>
                                                 <br/>
-                                                <span><i className="fa fa-phone"></i> : +88-01401157050</span>
+                                                <span><img src={phone} alt={phone}/> : +88-01401157050</span>
                                             </div>
                                         </Navbar.Collapse>
                                     </Navbar>
@@ -53,5 +54,4 @@ class Header extends Component{
         )
     }
 }
-
 export default Header;

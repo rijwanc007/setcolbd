@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import '../../assets/lib/knob/jquery.knob.js';
-
+import $ from "jquery";
 class Skill extends Component{
     componentDidMount() {
         if (typeof($.fn.knob) !== 'undefined') {
@@ -8,13 +8,11 @@ class Skill extends Component{
             knob_tex.each(function() {
                 var $this = $(this),
                     knobVal = $this.attr('data-rel');
-
                 $this.knob({
                     'draw': function() {
                         $(this.i).val(this.cv + '%')
                     }
                 });
-
                 $this.appear(function() {
                     $({
                         value: 0

@@ -1,92 +1,38 @@
-import React,{ Component} from 'react';
+import React,{ Component,Suspense} from 'react';
 import {render} from 'react-dom';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '@fortawesome/fontawesome-free/js/fontawesome';
-import '@fortawesome/fontawesome-free/js/solid';
 import './assets/css/style.css';
 import './assets/css/responsive.css';
 import './assets/css/custom.css';
 import './assets/lib/appear/jquery.appear.js';
 
-import loadable from 'react-loadable';
-
 import ScrollHandling from './component/include/ScrollHandling';
-const Dashboard = loadable({
-    loader : () => import('./component/pages/Dashboard'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const WebApplication = loadable({
-    loader : () => import('./component/pages/WebApplication'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const MobileApplication = loadable({
-    loader : () => import('./component/pages/MobileApplication'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const QATesting = loadable({
-    loader : () => import('./component/pages/QA-&-Testing'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const GraphicsSolution = loadable({
-    loader : () => import('./component/pages/GraphicsSolution'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const SEODigitalMarketing = loadable({
-    loader : () => import('./component/pages/SEO-&-DigitalMarketing'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const OnlineDataSecurity = loadable({
-    loader : () => import('./component/pages/OnlineDataSecurity'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const ERP = loadable({
-    loader : () => import('./component/pages/ERP'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const Accounts = loadable({
-    loader : () => import('./component/pages/Accounts'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const Inventory = loadable({
-    loader : () => import('./component/pages/Inventory'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const SalesAndDistribution = loadable({
-    loader : () => import('./component/pages/SalesAndDistribution'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const CRM = loadable({
-    loader : () => import('./component/pages/CRM'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const HRAndPayroll = loadable({
-    loader : () => import('./component/pages/HRAndPayroll'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const ECommerce = loadable({
-    loader : () => import('./component/pages/ECommerce'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const BookingAndReservation = loadable({
-    loader : () => import('./component/pages/BookingAndReservation'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const VirtualClassroom = loadable({
-    loader : () => import('./component/pages/VirtualClassroom'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
-const Career = loadable({
-    loader : () => import('./component/pages/Career'),
-    loading : () => <div className={'text-info'}> Loading...... </div>,
-});
+const Dashboard = React.lazy(() => import('./component/pages/Dashboard'));
+const WebApplication = React.lazy(() => import('./component/pages/WebApplication'));
+const MobileApplication = React.lazy(() => import('./component/pages/MobileApplication'));
+const QATesting = React.lazy(() => import('./component/pages/QA-&-Testing'));
+const GraphicsSolution = React.lazy(() => import('./component/pages/GraphicsSolution'));
+const SEODigitalMarketing = React.lazy(() => import('./component/pages/SEO-&-DigitalMarketing'));
+const OnlineDataSecurity = React.lazy(() => import('./component/pages/OnlineDataSecurity'));
+const ERP = React.lazy(() => import('./component/pages/ERP'));
+const Accounts = React.lazy(() => import('./component/pages/Accounts'));
+const Inventory = React.lazy(() => import('./component/pages/Inventory'));
+const SalesAndDistribution = React.lazy(() => import('./component/pages/SalesAndDistribution'));
+const CRM = React.lazy(() => import('./component/pages/CRM'));
+const HRAndPayroll = React.lazy(() => import('./component/pages/HRAndPayroll'));
+const ECommerce = React.lazy(() => import('./component/pages/ECommerce'));
+const BookingAndReservation = React.lazy(() => import('./component/pages/BookingAndReservation'));
+const VirtualClassroom = React.lazy(() => import('./component/pages/VirtualClassroom'));
+const Career = React.lazy(() => import('./component/pages/Career'));
 
 class LandingPage extends Component{
     render(){
         return(
             <div>
                 <ScrollHandling>
+                <Suspense fallback={<div className={'text-info'}>Loading...</div>}>
                 <Switch>
                     <Route exact path="/" component={Dashboard}/>
                     <Route path="/web_application" component={WebApplication}/>
@@ -106,6 +52,7 @@ class LandingPage extends Component{
                     <Route path="/virtual_class_room" component={VirtualClassroom}/>
                     <Route path="/career" component={Career}/>
                 </Switch>
+                </Suspense>
                 </ScrollHandling>
             </div>
         )
@@ -122,5 +69,4 @@ class LandingPageRouting extends Component{
         )
     }
 }
-
 render(<LandingPageRouting/>,document.getElementById('root'));
