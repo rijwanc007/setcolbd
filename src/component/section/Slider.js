@@ -2,11 +2,11 @@ import React,{Component} from 'react';
 import '../../assets/lib/nivo-slider/css/nivo-slider.css';
 import '../../assets/css/nivo-slider-theme.css';
 import '../../assets/lib/nivo-slider/js/jquery.nivo.slider.js';
-import slider_one from '../../assets/img/slider/cloudbase-software.jpg';
-import slider_two from '../../assets/img/slider/e-commerce.jpg';
-import slider_three from '../../assets/img/slider/website-design-and-development-page.jpg';
-import slider_four from '../../assets/img/slider/graphic-design.jpg';
-import slider_five from '../../assets/img/slider/Mobile-apps.jpg';
+import slider_one from '../../assets/img/slider/cloudbase-software.webp';
+import slider_two from '../../assets/img/slider/e-commerce.webp';
+import slider_three from '../../assets/img/slider/website-design-and-development-page.webp';
+import slider_four from '../../assets/img/slider/graphic-design.webp';
+import slider_five from '../../assets/img/slider/Mobile-apps.webp';
 import $ from "jquery";
 class Slider extends Component{
     componentDidMount() {

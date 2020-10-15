@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Iframe from 'react-iframe'
 import axios from 'axios'
 import Swal from 'sweetalert2';
 import address from '../../assets/img/icon/location-80.png';
@@ -7,45 +8,70 @@ import phone from '../../assets/img/icon/phone-80.png';
 import  {API_BASE_URL}  from '../include/config'
 
 class Contact extends Component{
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
-            name:'',
-            email:'',
-            subject:'',
-            message:''
+            name: '',
+            email: '',
+            subject: '',
+            message: ''
         };
         this.getName = this.getName.bind(this);
         this.getEmail = this.getEmail.bind(this);
         this.getSubject = this.getSubject.bind(this);
         this.getMessage = this.getMessage.bind(this);
     }
-    getName = (e) => { this.setState({name : e.target.value}) };
-    getEmail = (e) => { this.setState({email : e.target.value})};
-    getSubject = (e) => { this.setState({subject : e.target.value})};
-    getMessage = (e) => { this.setState({message : e.target.value})};
+    getName = (e) => {
+        this.setState({
+            name: e.target.value
+        })
+    };
+    getEmail = (e) => {
+        this.setState({
+            email: e.target.value
+        })
+    };
+    getSubject = (e) => {
+        this.setState({
+            subject: e.target.value
+        })
+    };
+    getMessage = (e) => {
+        this.setState({
+            message: e.target.value
+        })
+    };
     onSubmit = (e) => {
         e.preventDefault();
         const contact = {
-            name : this.state.name,
-            email : this.state.email,
-            subject : this.state.subject,
-            message : this.state.message
+            name: this.state.name,
+            email: this.state.email,
+            subject: this.state.subject,
+            message: this.state.message
         };
-        axios.post(API_BASE_URL +'/contact/', contact)
-            .then(
+        axios.post(API_BASE_URL + '/contact/', contact)
+            .then(res => {
                 this.setState({
-                    name : '',
-                    email : '',
-                    subject : '',
-                    message : ''
-                })
-            );
-        Swal.fire(
-            'Contact!',
-            'You will be response soon',
-            'success'
-        )
+                    name: '',
+                    email: '',
+                    subject: '',
+                    message: ''
+                });
+                Swal.fire(
+                    'Contact!',
+                    res.data,
+                    'success'
+                )
+            })
+            .catch(function(error) {
+                if (error.response) {
+                    Swal.fire(
+                        'Cancel!',
+                        'Opps Something Went Wrong Please Try Again Later',
+                        'error'
+                    )
+                }
+            });
     };
     render(){
         return(
@@ -97,7 +123,10 @@ class Contact extends Component{
                             </div>
                             <div className="row">
                                 <div className="col-md-6 col-sm-6 col-xs-12">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.439060616321!2d90.40943111545187!3d23.7317175954056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9aaa7fb50d1%3A0x7a3104cb73a7058c!2sSkies%20Engineering%20%26%20Technologies%20Company!5e0!3m2!1sen!2sbd!4v1588177429236!5m2!1sen!2sbd"  style={{border:"none"}}  height="435" width="100%" title="google location"></iframe>
+                                    <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.439060616321!2d90.40943111545187!3d23.7317175954056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9aaa7fb50d1%3A0x7a3104cb73a7058c!2sSkies%20Engineering%20%26%20Technologies%20Company!5e0!3m2!1sen!2sbd!4v1588177429236!5m2!1sen!2sbd"
+                                            height="435"
+                                            width="100%"
+                                            className={'border'}/>
                                 </div>
                                 <div className="col-md-6 col-sm-6 col-xs-12">
                                     <form onSubmit={this.onSubmit}>
@@ -128,6 +157,5 @@ class Contact extends Component{
         )
     }
 }
-
 
 export default Contact;

@@ -30,7 +30,7 @@ module.exports = {
                 loader: "expose-loader?$!expose-loader?jQuery"
             },
             {
-                test: /\.(woff|woff2|eot|ttf|jpe?g|png|gif|svg)$/i,
+                test: /\.(woff|woff2|eot|ttf|jpe?g|png|gif|svg|webp)$/i,
                 loader: "url-loader?name=src/[name].[ext]"
             },
         ]

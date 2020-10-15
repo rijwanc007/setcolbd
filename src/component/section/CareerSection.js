@@ -1,57 +1,111 @@
 import React,{Component} from 'react';
+import axios from 'axios'
+import Swal from 'sweetalert2';
 import career_banner from "../../assets/img/career/career_banner.png";
+import  {API_BASE_URL}  from '../include/config'
 
 class CareerSection extends Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            position: '',
+            email: '',
+            cv: '',
+        };
+        this.getPosition = this.getPosition.bind(this);
+        this.getEmail = this.getEmail.bind(this);
+        this.getCV = this.getCV.bind(this);
+        this.onSubmit = this.onSubmit.bind(this);
+    }
+    getPosition = (e) => {
+        this.setState({
+            position: e.target.value
+        })
+    };
+    getEmail = (e) => {
+        this.setState({
+            email: e.target.value
+        })
+    };
+    getCV = (e) => {
+        this.setState({
+            cv: e.target.files[0]
+        })
+    };
+    onSubmit() {
+        const career = new FormData();
+        career.append('position', this.state.position);
+        career.append('email', this.state.email);
+        career.append('cv', this.state.cv);
+        axios.post(API_BASE_URL + '/career/', career)
+            .then(res => {
+                this.setState({
+                    position: '',
+                    email: '',
+                });
+                Swal.fire(
+                    'Career!',
+                     res.data,
+                    'success'
+                );
+            })
+            .catch(function(error) {
+                if (error.response) {
+                    Swal.fire(
+                        'Cancel!',
+                        'Only Upload PDF file',
+                        'error'
+                    )
+                }
+            });
+    }
     render(){
         return(
             <div>
                 <div className = "row">
-                    <div className = "col-md-12 col-sm-12 col-xl-12">
-                        <img className = {'services_banner img-responsive'} src = {career_banner} alt={career_banner}/>
-                    </div>
+                <div className = "col-md-12 col-sm-12 col-xl-12">
+                    <img className = {'services_banner img-responsive'} src = {career_banner} alt={career_banner}/>
                 </div>
+            </div>
                 <div  className = "footer-area">
-                    <form>
-                    <div className = "container">
-                        <div className = "row">
-                            <div className = "col-md-12 col-sm-12 col-xl-12">
-                                <div className="section-headline text-center">
-                                    <h2>Job <span className="text-info">'s</span></h2>
+                        <div className = "container">
+                            <div className = "row">
+                                <div className = "col-md-12 col-sm-12 col-xl-12">
+                                    <div className="section-headline text-center">
+                                        <h2>Job <span className="text-info">'s</span></h2>
+                                    </div>
+                                    <p className={'career_details_design'}>Skies Engineering & Technologies Company is looking for some Hardworking, Punctual & Challenging People. But opportunity is limited. So apply now and grab your position for better tomorrow.</p>
                                 </div>
-                                <p className={'career_details_design'}>Skies Engineering & Technologies Company is looking for some Hardworking, Punctual & Challenging People. But opportunity is limited. So apply now and grab your position for better tomorrow.</p>
-                            </div>
-                            <div className = "col-md-6 col-sm-6 col-xl-6 text-center">
-                                <div className="form-group">
-                                    <label htmlFor="select_position"><h4 className={'text-info'}>Position ::</h4></label>
-                                    <select className="form-control" id="select_position">
-                                        <option selected disabled value="">Choose An Option</option>
-                                        <option value="HR">HR</option>
-                                        <option value="Account">Account</option>
-                                        <option value="Employee">Employee</option>
-                                        <option value="Sale Leader">Sale Leader</option>
-                                        <option value="Supervisor">Supervisor</option>
-                                        <option value="Seller">Seller</option>
-                                        <option value="Client">Client</option>
-                                    </select>
+                                <div className = "col-md-6 col-sm-6 col-xl-6 text-center">
+                                    <div className="form-group">
+                                        <label htmlFor="select_position"><h4 className={'text-info'}>Position ::</h4></label>
+                                        <select className="form-control" id="select_position" value={this.state.position} onChange={this.getPosition} required>
+                                            <option selected disabled value="">Choose An Option</option>
+                                            <option value="HR">HR</option>
+                                            <option value="Account">Account</option>
+                                            <option value="Employee">Employee</option>
+                                            <option value="Sale Leader">Sale Leader</option>
+                                            <option value="Supervisor">Supervisor</option>
+                                            <option value="Seller">Seller</option>
+                                            <option value="Client">Client</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className = "col-md-6 col-sm-6 col-xl-6 text-center">
-                                <div className="form-group">
-                                    <label htmlFor="select_position"><h4 className={'text-info'}>Email ::</h4></label>
-                                    <input type="email" className = "form-control" placeholder="enter your email address"/>
+                                <div className = "col-md-6 col-sm-6 col-xl-6 text-center">
+                                    <div className="form-group">
+                                        <label htmlFor="select_position"><h4 className={'text-info'}>Email ::</h4></label>
+                                        <input type="email" className = "form-control" value={this.state.email} onChange={this.getEmail} placeholder="enter your email address" required/>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className = "col-md-12 col-sm-12 col-xl-12 text-center">
-                                <div><input type="file" style={{height:'44px'}} className = "form-control" accept=".pdf" placeholder="enter your cv in pdf format"/></div><br/>
-                                <div><button className="btn btn-info">Apply</button></div>
+                                <div className = "col-md-12 col-sm-12 col-xl-12 text-center">
+                                    <div><input type="file" style={{height:'44px'}} className = "form-control" ref={'cv'} onChange={this.getCV} placeholder="enter your cv in pdf format" required/></div><br/>
+                                    <div><input type={'submit'} className={'btn btn-info btn-block'} value={'Apply'} onClick={()=>this.onSubmit()} /></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    </form>
                 </div>
             </div>
         )
     }
 }
-
 export default CareerSection;

@@ -5,30 +5,43 @@ import  {API_BASE_URL}  from '../include/config'
 
 
 class Subscribe extends Component{
-        constructor(props){
-            super(props);
-            this.state = {
-                subscriber : ''
-            };
-            this.getSubscriber = this.getSubscriber.bind(this);
-        }
-        getSubscriber = (e) => { this.setState({subscriber : e.target.value})};
-        onSubmit = (e) =>{
-            e.preventDefault();
-            const subscriber = {
-              subscriber : this.state.subscriber
-            };
-            axios.post(API_BASE_URL + '/subscriber/', subscriber)
-                .then(
-                    this.setState({
-                        subscriber : ''
-                    })
-                );
-            Swal.fire(
-                'Subscription!',
-                'Thanks For Subscribe Us!',
-                'success'
-            )
+    constructor(props) {
+        super(props);
+        this.state = {
+            subscriber: ''
+        };
+        this.getSubscriber = this.getSubscriber.bind(this);
+    }
+    getSubscriber = (e) => {
+        this.setState({
+            subscriber: e.target.value
+        })
+    };
+    onSubmit = (e) => {
+        e.preventDefault();
+        const subscriber = {
+            subscriber: this.state.subscriber
+        };
+        axios.post(API_BASE_URL + '/subscriber/', subscriber)
+            .then(res => {
+                this.setState({
+                    subscriber: ''
+                });
+                Swal.fire(
+                    'Subscription!',
+                    res.data,
+                    'success'
+                )
+            })
+            .catch(function(error) {
+                if (error.response) {
+                    Swal.fire(
+                        'Cancel!',
+                        'Only Upload PDF file',
+                        'error'
+                    )
+                }
+            });
         };
         render(){
         return(
@@ -50,6 +63,5 @@ class Subscribe extends Component{
         )
     }
 }
-
 
 export default Subscribe;
