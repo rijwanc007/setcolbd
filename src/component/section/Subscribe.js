@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import axios from "axios";
-import Swal from "./Contact";
+import Swal from 'sweetalert2';
+import  {API_BASE_URL}  from '../include/config'
 
 
 class Subscribe extends Component{
@@ -17,7 +18,7 @@ class Subscribe extends Component{
             const subscriber = {
               subscriber : this.state.subscriber
             };
-            axios.post('http://localhost:8000/api/subscriber/', subscriber)
+            axios.post(API_BASE_URL + '/subscriber/', subscriber)
                 .then(
                     this.setState({
                         subscriber : ''
@@ -25,7 +26,7 @@ class Subscribe extends Component{
                 );
             Swal.fire(
                 'Subscription!',
-                'Thanks For Subscribe Us',
+                'Thanks For Subscribe Us!',
                 'success'
             )
         };

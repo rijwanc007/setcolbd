@@ -4,6 +4,7 @@ import Swal from 'sweetalert2';
 import address from '../../assets/img/icon/location-80.png';
 import email from '../../assets/img/icon/email-80.png';
 import phone from '../../assets/img/icon/phone-80.png';
+import  {API_BASE_URL}  from '../include/config'
 
 class Contact extends Component{
     constructor(props){
@@ -31,7 +32,7 @@ class Contact extends Component{
             subject : this.state.subject,
             message : this.state.message
         };
-        axios.post('http://localhost:8000/api/contact/', contact)
+        axios.post(API_BASE_URL +'/contact/', contact)
             .then(
                 this.setState({
                     name : '',

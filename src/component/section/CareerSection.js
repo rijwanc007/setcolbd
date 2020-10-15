@@ -11,6 +11,7 @@ class CareerSection extends Component{
                     </div>
                 </div>
                 <div  className = "footer-area">
+                    <form>
                     <div className = "container">
                         <div className = "row">
                             <div className = "col-md-12 col-sm-12 col-xl-12">
@@ -46,6 +47,7 @@ class CareerSection extends Component{
                             </div>
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         )
