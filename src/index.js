@@ -1,4 +1,4 @@
-import React,{ Component,Suspense} from 'react';
+import React,{ Component,Suspense,lazy} from 'react';
 import {render} from 'react-dom';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
@@ -6,26 +6,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/style.css';
 import './assets/css/responsive.css';
 import './assets/css/custom.css';
-import './assets/lib/appear/jquery.appear.js';
 
 import ScrollHandling from './component/include/ScrollHandling';
-const Dashboard = React.lazy(() => import('./component/pages/Dashboard'));
-const WebApplication = React.lazy(() => import('./component/pages/WebApplication'));
-const MobileApplication = React.lazy(() => import('./component/pages/MobileApplication'));
-const QATesting = React.lazy(() => import('./component/pages/QA-&-Testing'));
-const GraphicsSolution = React.lazy(() => import('./component/pages/GraphicsSolution'));
-const SEODigitalMarketing = React.lazy(() => import('./component/pages/SEO-&-DigitalMarketing'));
-const OnlineDataSecurity = React.lazy(() => import('./component/pages/OnlineDataSecurity'));
-const ERP = React.lazy(() => import('./component/pages/ERP'));
-const Accounts = React.lazy(() => import('./component/pages/Accounts'));
-const Inventory = React.lazy(() => import('./component/pages/Inventory'));
-const SalesAndDistribution = React.lazy(() => import('./component/pages/SalesAndDistribution'));
-const CRM = React.lazy(() => import('./component/pages/CRM'));
-const HRAndPayroll = React.lazy(() => import('./component/pages/HRAndPayroll'));
-const ECommerce = React.lazy(() => import('./component/pages/ECommerce'));
-const BookingAndReservation = React.lazy(() => import('./component/pages/BookingAndReservation'));
-const VirtualClassroom = React.lazy(() => import('./component/pages/VirtualClassroom'));
-const Career = React.lazy(() => import('./component/pages/Career'));
+const Dashboard = lazy(() => import('./component/pages/Dashboard'));
+const WebApplication = lazy(() => import('./component/pages/WebApplication'));
+const MobileApplication = lazy(() => import('./component/pages/MobileApplication'));
+const QATesting = lazy(() => import('./component/pages/QA-&-Testing'));
+const GraphicsSolution = lazy(() => import('./component/pages/GraphicsSolution'));
+const SEODigitalMarketing = lazy(() => import('./component/pages/SEO-&-DigitalMarketing'));
+const OnlineDataSecurity = lazy(() => import('./component/pages/OnlineDataSecurity'));
+const ERP = lazy(() => import('./component/pages/ERP'));
+const Accounts = lazy(() => import('./component/pages/Accounts'));
+const Inventory = lazy(() => import('./component/pages/Inventory'));
+const SalesAndDistribution = lazy(() => import('./component/pages/SalesAndDistribution'));
+const CRM = lazy(() => import('./component/pages/CRM'));
+const HRAndPayroll = lazy(() => import('./component/pages/HRAndPayroll'));
+const ECommerce = lazy(() => import('./component/pages/ECommerce'));
+const BookingAndReservation = lazy(() => import('./component/pages/BookingAndReservation'));
+const VirtualClassroom = lazy(() => import('./component/pages/VirtualClassroom'));
+const Career = lazy(() => import('./component/pages/Career'));
 
 class LandingPage extends Component{
     render(){

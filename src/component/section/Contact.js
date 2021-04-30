@@ -49,7 +49,7 @@ class Contact extends Component{
             subject: this.state.subject,
             message: this.state.message
         };
-        axios.post(API_BASE_URL + '/contact/', contact)
+        axios.post(API_BASE_URL + '/contact', contact)
             .then(res => {
                 this.setState({
                     name: '',

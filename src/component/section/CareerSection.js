@@ -37,7 +37,7 @@ class CareerSection extends Component{
         career.append('position', this.state.position);
         career.append('email', this.state.email);
         career.append('cv', this.state.cv);
-        axios.post(API_BASE_URL + '/career/', career)
+        axios.post(API_BASE_URL + '/career', career)
             .then(res => {
                 this.setState({
                     position: '',
@@ -81,13 +81,16 @@ class CareerSection extends Component{
                                         <label htmlFor="select_position"><h4 className={'text-info'}>Position ::</h4></label>
                                         <select className="form-control" id="select_position" value={this.state.position} onChange={this.getPosition} required>
                                             <option selected disabled value="">Choose An Option</option>
-                                            <option value="HR">HR</option>
-                                            <option value="Account">Account</option>
-                                            <option value="Employee">Employee</option>
-                                            <option value="Sale Leader">Sale Leader</option>
-                                            <option value="Supervisor">Supervisor</option>
-                                            <option value="Seller">Seller</option>
-                                            <option value="Client">Client</option>
+                                            <option value="Frontend Developer">Frontend Developer</option>
+                                            <option value="Backend Developer">Backend Developer</option>
+                                            <option value="App Developer">App Developer</option>
+                                            <option value="UX/UI Designer">UX/UI Designer</option>
+                                            <option value="SEO & Digital Marketer">SEO & Digital Marketer</option>
+                                            <option value="HR & Admin">HR & Admin</option>
+                                            <option value="Business Development">Business Development</option>
+                                            <option value="Software Sells & Marketing">Software Sells & Marketing</option>
+                                            <option value="Project Manager">Project Manager</option>
+                                            <option value="Content Writer">Content Writer</option>
                                         </select>
                                     </div>
                                 </div>

@@ -22,7 +22,7 @@ class Subscribe extends Component{
         const subscriber = {
             subscriber: this.state.subscriber
         };
-        axios.post(API_BASE_URL + '/subscriber/', subscriber)
+        axios.post(API_BASE_URL + '/subscriber', subscriber)
             .then(res => {
                 this.setState({
                     subscriber: ''
@@ -37,7 +37,7 @@ class Subscribe extends Component{
                 if (error.response) {
                     Swal.fire(
                         'Cancel!',
-                        'Only Upload PDF file',
+                        'Opps Something Went Wrong Please Try Again Later',
                         'error'
                     )
                 }
